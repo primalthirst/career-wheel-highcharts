@@ -1,0 +1,50 @@
+
+/* Career wheel styles */
+#reset{
+    background-color: #222222;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40px;
+    visibility: hidden;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.highcharts-drillup-button{
+    display: none;
+}
+
+
+/* Career info overlay styles */
+#info-overlay{
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+}
+
+@media only screen and (min-width: 600px){
+    .one-third-mobile{
+        padding-left: 20px;
+        padding-right: 20px;    	
+        float: left;
+        width: 33%;
+        }
+}
+
+@media only screen and (max-width: 599px){
+    .lity-iframe-container{
+        width: 100%;
+        height: 56.25%;
+        padding-top: 56.25%;
+        overflow: auto;
+        pointer-events: auto;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-overflow-scrolling: touch;
+    }
+}

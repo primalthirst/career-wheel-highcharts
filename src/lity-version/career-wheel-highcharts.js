@@ -14,16 +14,47 @@ function init(){
 
     // Reset button
     var resetButton = document.getElementById('reset');
-    resetButton.style.cursor = 'pointer';
+    if(resetButton){
+        resetButton.style.cursor = 'pointer';
 
-    resetButton.onclick = function(){
-        zoom1();
-        chart.series[0].drillUp();
-        hideInfo();
-    };
+        resetButton.onclick = function(){
+            zoom1();
+            chart.series[0].drillUp();
+        };
+    }
+
+    // Close button
+    var closeButton = document.getElementById('closeButton');
+    if(closeButton){
+        closeButton.onclick = function(){
+            var overlay = document.getElementById("info-overlay");
+            if(overlay)
+            {                
+                overlay.classList.add('hide');
+            }
+        };
+    }
 }
 
 function drawWheel(){
+
+    var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    console.log("W: ", w);
+    if(w < 760){
+        var wheelFontSize = "12px";
+        var wheelFontOutline = false;
+        var chartHeight = '100%';
+    }
+    else if(w < 600){
+        wheelFontSize = "8px";
+        wheelFontOutline = false;
+        chartHeight = '100%';
+    }
+    else{
+        wheelFontSize = "16px";   
+        wheelFontOutline = true;
+        chartHeight = '90%';
+    }
 
     // Splice in transparent for the center circle
     Highcharts.getOptions().colors.splice(0, 0, 'transparent');
@@ -32,7 +63,7 @@ function drawWheel(){
     chart = Highcharts.chart('container', {
         credits: false,
         chart: {
-            height: '90%',
+            height: chartHeight,
             backgroundColor:'null',
         },
         title: {
@@ -94,13 +125,17 @@ function drawWheel(){
                 allowOverlap: true,    
                 rotationMode: 'perpendicular',     
                 format: '{point.name}',
+                style:  {
+                    textShadow: true,
+                    fontSize: wheelFontSize,
+                }
             },
             levels: [{
                 level: 1,
                 levelIsConstant: false,
                 levelSize: {
                     unit: 'percentage',
-                    value: 40
+                    value: 30
                 },
                 dataLabels: {
                     rotationMode: 'parallel'                
@@ -109,7 +144,7 @@ function drawWheel(){
                 level: 2,
                 levelSize: {
                     unit: 'percentage',
-                    value: 60
+                    value: 72
                 },
                 colorByPoint: true,
                 dataLabels: {
@@ -181,13 +216,10 @@ function getWidth() {
 }
 
 function zoom1(){
-
-    console.log("ZOOM 1");
-
     // Zoom out to full wheel
     zoom = 1;
-    chart.series[0].options.levels[0].levelSize.value = '40';
-    chart.series[0].options.levels[1].levelSize.value = '60';
+    chart.series[0].options.levels[0].levelSize.value = '30';
+    chart.series[0].options.levels[1].levelSize.value = '70';
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'perpendicular';
     chart.series[0].options.levels[2].levelSize.value = '0';
     chart.series[0].options.levels[2].dataLabels.enabled = false;
@@ -199,12 +231,10 @@ function zoom1(){
 }
 
 function zoom2(){
-
-    console.log("ZOOM 2");
     // Zoom in to subject
     zoom = 2;
-    chart.series[0].options.levels[1].levelSize.value = '40';
-    chart.series[0].options.levels[2].levelSize.value = '60';
+    chart.series[0].options.levels[1].levelSize.value = '30';
+    chart.series[0].options.levels[2].levelSize.value = '70';
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'parallel';
     chart.series[0].options.levels[2].dataLabels.enabled = true; 
 
@@ -216,7 +246,12 @@ function zoom2(){
 }
 
 function showInfo(careerName){
-    lightbox = lity('/files/career-info.html?career=' + careerName); // Modify to pass careerName through to url
+   // lightbox = lity('/files/career-info.html?career=' + careerName); // Modify to pass careerName through to url
+   var x = document.getElementById("info-overlay");
+   if(x)
+   {
+        x.classList.remove('hide');
+   }
 }
 
 function hideInfo(){

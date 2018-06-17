@@ -11,7 +11,7 @@ var data = [{
 }, {
     'id': '1.2',
     'parent': '0.0',
-    'name': 'Health & Psychology',
+    'name': 'Health &<br/>Psychology',
     'value': 1
 }, {
     'id': '1.3',
@@ -21,7 +21,7 @@ var data = [{
 }, {
     'id': '1.4',
     'parent': '0.0',
-    'name': 'Environment &<br/> earth Sciences',
+    'name': 'Environment &<br/>earth Sciences',
     'value': 1
 }, {
     'id': '1.5',
@@ -32,7 +32,6 @@ var data = [{
     'id': '1.6',
     'parent': '0.0',
     'name': 'Chemistry',
-    'drilldown': 'chemistryData',
     'value': 1
 },
 
@@ -57,7 +56,7 @@ var data = [{
      'url': 'physics'
     },
     {
-     'name': "Instrument designer", 
+     'name': "Instrument<br/>designer", 
      'parent': '1.1', 
      'value': 2, 
      'url': 'physics'
@@ -78,10 +77,10 @@ var data = [{
      'name': "Physicist", 'parent': '1.1', 'value': 2, 'url': 'physics'
     },
     {
-     'name': "Robotics technician",  'parent': '1.1', 'value': 2, 'url': 'physics'
+     'name': "Robotics<br/>technician",  'parent': '1.1', 'value': 2, 'url': 'physics'
     },
     {
-     'name': "Material scientist",  'parent': '1.1', 'value': 2, 'url': 'physics'
+     'name': "Material<br/>scientist",  'parent': '1.1', 'value': 2, 'url': 'physics'
     },
     {
      'name': "Science reporter", 'parent': '1.1', 'value': 2, 'url': 'physics'
@@ -102,25 +101,25 @@ var data = [{
      'name': 'Physiotherapist', 'parent': '1.2', 'value': 2,  'url': 'health'
     },
     {
-     'name': 'Genetic counselor', 'parent': '1.2', 'value': 2,  'url': 'health'       
+     'name': 'Genetic<br/>counselor', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
-     'name': 'Health policy advisor', 'parent': '1.2', 'value': 2,  'url': 'health'       
+     'name': 'Health policy<br/>advisor', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
-     'name': 'Laboratory technician', 'parent': '1.2', 'value': 2,  'url': 'health'     
+     'name': 'Laboratory<br/>technician', 'parent': '1.2', 'value': 2,  'url': 'health'     
     },
     {
-     'name': 'Behaviour therapist', 'parent': '1.2', 'value': 2,  'url': 'health'       
+     'name': 'Behaviour<br/>therapist', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
-     'name': 'Mental health counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'      
+     'name': 'Mental health<br/>counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'      
     },
     {
-     'name': 'Psychologist/Psychiatrist', 'parent': '1.2', 'value': 2,  'url': 'health'       
+     'name': 'Psychologist/<br/>Psychiatrist', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
-     'name': 'Rehabilitation counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'     
+     'name': 'Rehabilitation<br/>counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'     
     },
     {
      'name': 'Science teacher', 'parent': '1.2', 'value': 2, 'url': 'health'      
@@ -138,10 +137,10 @@ var data = [{
      'name': 'Epidemiologist', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
-     'name': 'Investment banker', 'parent': '1.3', 'value': 2, 'url': 'maths'
+     'name': 'Investment<br/>banker', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
-     'name': 'Logistics specialist', 'parent': '1.3', 'value': 2, 'url': 'maths'
+     'name': 'Logistics<br/>specialist', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
      'name': 'Market analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
@@ -150,7 +149,7 @@ var data = [{
      'name': 'Mathematician', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
-     'name': 'Numerical analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
+     'name': 'Numerical<br/>analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
      'name': 'Statistician', 'parent': '1.3', 'value': 2, 'url': 'maths'
@@ -177,10 +176,10 @@ var data = [{
      'name': 'Urban planner', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
-     'name': 'Conservation officer', 'parent': '1.4', 'value': 2, 'url': 'earth'
+     'name': 'Conservation<br/>officer', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
-     'name': 'Eco-tourism planner', 'parent': '1.4', 'value': 2, 'url': 'earth'
+     'name': 'Eco-tourism<br/>planner', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
      'name': 'Fire consultant', 'parent': '1.4', 'value': 2, 'url': 'earth'
@@ -237,10 +236,10 @@ var data = [{
      'name': 'Microbiologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
-     'name': 'Conservation biologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+     'name': 'Conservation<br/>biologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
-     'name': 'Biomedical researcher', 'parent': '1.5', 'value': 2, 'url': 'biology'
+     'name': 'Biomedical<br/>researcher', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
      'name': 'Immunologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
@@ -252,13 +251,13 @@ var data = [{
      'name': 'Biotechnologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
-     'name': 'Biochemical geneticist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+     'name': 'Biochemical<br/>geneticist', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
-     'name': 'Clinical researcher', 'parent': '1.5', 'value': 2, 'url': 'biology'
+     'name': 'Clinical<br/>researcher', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
-     'name': 'Food and drug inspector', 'parent': '1.5', 'value': 2, 'url': 'biology'
+     'name': 'Food and drug<br/>inspector', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
      'name': 'Science teacher', 'parent': '1.5', 'value': 2, 'url': 'biology'
@@ -284,10 +283,10 @@ var data = [{
      'name': 'Textile chemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
-     'name': 'Pharmaceutical chemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
+     'name': 'Pharmaceutical<br/>chemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
-     'name': 'Chemical engineer','parent': '1.6', 'value': 2, 'url': 'chemistry'
+     'name': 'Chemical<br/>engineer','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
      'name': 'Biochemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
@@ -296,7 +295,7 @@ var data = [{
      'name': 'Chemical physicists','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
-     'name': 'Animal Behaviourist','parent': '1.6', 'value': 2, 'url': 'chemistry'
+     'name': 'Animal<br/>Behaviourist','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
      'name': 'Patent agent','parent': '1.6', 'value': 2, 'url': 'chemistry'

@@ -135,10 +135,11 @@ function drawWheel(){
             allowDrillToNode: true,
             cursor: 'pointer',
             dataLabels: {   
+                padding: 0,
                 allowOverlap: true,    
                 rotationMode: 'perpendicular',    
                 formatter: function(){
-                    var s = formatString(this.point.name, 1, 16);
+                    var s = formatString(this.point.name, 16);
                     console.log('split', s, this.point.name);
                     return s;
                 },
@@ -295,37 +296,21 @@ function showInfo(careerName){
 }
 
 
-function formatString(str, line, splitAt) {
-    
-    var width = splitAt; // How many characters the first line contains before it splits into two lines 
-    if(str.length > width){
-        var p=width;
-        for (;p>0 && (str[p]!=' ' && str[p]!='/');p--) {            
+function formatString(str, splitAt) {
+    if(str.length > splitAt){
+        console.log(str, splitAt);
+        var p = 0;
+        for (;p < str.length && (str[p]!= ' ' && str[p] != '/'); p++){ 
         }
         
-        if(line == 1)
-        {   
-            if(str[p] == ' '){      
-                return str.slice(0, p);
-            }
-            else if(str[p] == '/'){
-                return str.slice(0, p + 1);
-            }
+        if(str[p] == ' '){      
+            return str.slice(0, p) + "<br/>" + str.slice(p + 1, str.length);
         }
-        else
-        {
-            if(str[p] == ' '){
-                return str.slice(p + 1, str.length);
-            }
-            else if(str[p] == '/'){
-                return str.slice(p + 1, str.length);
-            }
+        else if(str[p] == '/'){
+            return str.slice(0, p + 1) + "<br/>" + str.slice(p + 1, str.length);
         }
     }
-    else{
-        if(line == 1) return str;
-        else return "";
-    }
+    return str;
 }
 
 function hideInfo(){

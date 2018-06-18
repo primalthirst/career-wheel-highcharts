@@ -33,8 +33,12 @@ function init(){
             document.getElementById('info-overlay').classList.add('fade-out');
             
             // Fade in career wheel
-            document.getElementById('container').classList.remove('fade-out');
-            document.getElementById('container').classList.add('fade-in');
+            document.getElementById('career-wheel').classList.remove('fade-out');
+            document.getElementById('career-wheel').classList.add('fade-in');
+
+            // Fade in career wheel close button
+            //document.getElementsByClassName('lity-close')[0].classList.remove('fade-out');
+            //document.getElementsByClassName('lity-close')[0].classList.add('fade-in');
         };
     }
 }
@@ -43,21 +47,33 @@ function drawWheel(){
 
     var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     console.log("W: ", w);
-    if(w < 760){
-        var wheelFontSize = '12px';
+
+    if(w < 400){
+        var wheelFontSize = '8px';
+        var wheelFontOutline = false;
+        var chartHeight = '100%';
+    }    
+    else if(w < 600){
+        var wheelFontSize = '10px';
         var wheelFontOutline = false;
         var chartHeight = '100%';
     }
-    else if(w < 600){
-        wheelFontSize = '8px';
+    else if(w < 760){
+        wheelFontSize = '12px';
         wheelFontOutline = false;
         chartHeight = '100%';
     }
-    else{
+    else if(w < 1024){
         wheelFontSize = '16px';   
         wheelFontOutline = true;
         chartHeight = '90%';
     }
+    else{
+        wheelFontSize = '24px';
+        wheelFontOutline = true;
+        chartHeight = '100%';
+    }
+    
 
     // Splice in transparent for the center circle
     Highcharts.getOptions().colors.splice(0, 0, 'transparent');
@@ -120,8 +136,12 @@ function drawWheel(){
             cursor: 'pointer',
             dataLabels: {   
                 allowOverlap: true,    
-                rotationMode: 'perpendicular',     
-                format: '{point.name}',
+                rotationMode: 'perpendicular',    
+                formatter: function(){
+                    var s = formatString(this.point.name, 1, 16);
+                    console.log('split', s, this.point.name);
+                    return s;
+                },
                 style:  {
                     textShadow: true,
                     fontSize: wheelFontSize,
@@ -208,7 +228,7 @@ function getWidth() {
 }
 
 function zoom1(){
-    
+
     // Zoom out to full wheel
     zoom = 1;
     chart.series[0].options.levels[0].levelSize.value = '30';
@@ -252,7 +272,7 @@ function showInfo(careerName){
         info.classList.remove('hide');
         info.classList.remove('fade-out');
         info.classList.add('fade-in');
-        
+
         // Update message at top of window
         if(careerName.toLowerCase().charAt() == ('a' || 'e' || 'i' || 'o' || 'u')){
             var message = "So you want to be an "; 
@@ -263,9 +283,49 @@ function showInfo(careerName){
         document.getElementById("subheading").innerHTML = message + careerName + "...";
    }
 
-   // Fade in careerwheel
-   document.getElementById('container').classList.remove('fade-in');
-   document.getElementById('container').classList.add('fade-out');
+   // Fade out career wheel
+   document.getElementById('career-wheel').classList.remove('fade-in');
+   document.getElementById('career-wheel').classList.add('fade-out');
+
+   // Hide career wheel close button
+   console.log("*", document.getElementsByClassName('lity-close'));
+   console.log("*", document.getElementsByClassName('lity-close')[0]);
+   //document.getElementsByClassName('lity-close')[0].classList.remove('fade-in');
+   //document.getElementsByClassName('lity-close')[0].classList.add('fade-out');
+}
+
+
+function formatString(str, line, splitAt) {
+    
+    var width = splitAt; // How many characters the first line contains before it splits into two lines 
+    if(str.length > width){
+        var p=width;
+        for (;p>0 && (str[p]!=' ' && str[p]!='/');p--) {            
+        }
+        
+        if(line == 1)
+        {   
+            if(str[p] == ' '){      
+                return str.slice(0, p);
+            }
+            else if(str[p] == '/'){
+                return str.slice(0, p + 1);
+            }
+        }
+        else
+        {
+            if(str[p] == ' '){
+                return str.slice(p + 1, str.length);
+            }
+            else if(str[p] == '/'){
+                return str.slice(p + 1, str.length);
+            }
+        }
+    }
+    else{
+        if(line == 1) return str;
+        else return "";
+    }
 }
 
 function hideInfo(){

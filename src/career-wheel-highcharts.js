@@ -27,11 +27,14 @@ function init(){
     var closeButton = document.getElementById('closeButton');
     if(closeButton){
         closeButton.onclick = function(){
-            var overlay = document.getElementById("info-overlay");
-            if(overlay)
-            {                
-                overlay.classList.add('hide');
-            }
+            
+            // Fade out info window
+            document.getElementById('info-overlay').classList.remove('fade-in');
+            document.getElementById('info-overlay').classList.add('fade-out');
+            
+            // Fade in career wheel
+            document.getElementById('container').classList.remove('fade-out');
+            document.getElementById('container').classList.add('fade-in');
         };
     }
 }
@@ -41,17 +44,17 @@ function drawWheel(){
     var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     console.log("W: ", w);
     if(w < 760){
-        var wheelFontSize = "12px";
+        var wheelFontSize = '12px';
         var wheelFontOutline = false;
         var chartHeight = '100%';
     }
     else if(w < 600){
-        wheelFontSize = "8px";
+        wheelFontSize = '8px';
         wheelFontOutline = false;
         chartHeight = '100%';
     }
     else{
-        wheelFontSize = "16px";   
+        wheelFontSize = '16px';   
         wheelFontOutline = true;
         chartHeight = '90%';
     }
@@ -73,34 +76,28 @@ function drawWheel(){
             exporting: false,
             series: {
                 events: {
-                    afterAnimate: function() {
-                        //console.log("^^^", this);                    
+                        afterAnimate: function() {                  
                     }
                 },
                 cursor: 'pointer',
                 point: {
                     events: {
-                        click: function () {
+                        click: function (){
                                                
-                            if(this.value == "2")
-                            {
+                            if(this.value == "2"){
                                 showInfo(this.name);
                             }
-                            else if(this.value == "1")
-                            {                     
-                                if(zoom == 1)
-                                {                                   
+                            else if(this.value == "1"){                     
+                                if(zoom == 1){                                   
                                     zoom2();                           
                                 }
-                                else
-                                {
+                                else{
                                     zoom1();
                                     chart.series[0].drillUp();
                                 }
                                 chart.render();
                             }
-                            else
-                            {
+                            else{
                                 hideInfo();
                             }
                         }
@@ -169,30 +166,25 @@ function drawWheel(){
 
         }],
         tooltip: {
-            formatter: function () 
-            {
-                console.log(zoom, this.point.value);
-                if(zoom == 1 && this.point.value == 1)
-                {
+            formatter: function () {
+                //console.log(zoom, this.point.value);
+                if(zoom == 1 && this.point.value == 1){
                     return 'I love ' + this.point.name.toLowerCase();
                 }
                 else if(zoom == 2 && this.point.value == 2)
                 {
-                    if(this.point.name.toLowerCase().charAt() == 'a')
-                    {
+                    return 
+                    if(this.point.name.toLowerCase().charAt() == ('a' || 'e' || 'i' || 'o' || 'u')){
                         return 'I want to be an ' + this.point.name.toLowerCase();
                     }
-                    else
-                    {
+                    else{
                         return 'I want to be a ' + this.point.name.toLowerCase();
                     }
                 }
-                else if(zoom == 2 && this.point.value == 1)
-                {
+                else if(zoom == 2 && this.point.value == 1){
                     return "Start again";
                 }
-                else
-                {
+                else{
                     return "What do I love?";
                 }
             }
@@ -216,6 +208,7 @@ function getWidth() {
 }
 
 function zoom1(){
+    
     // Zoom out to full wheel
     zoom = 1;
     chart.series[0].options.levels[0].levelSize.value = '30';
@@ -224,13 +217,16 @@ function zoom1(){
     chart.series[0].options.levels[2].levelSize.value = '0';
     chart.series[0].options.levels[2].dataLabels.enabled = false;
 
+    // Hide reset button
     var resetButton = document.getElementById("reset");
     resetButton.style.visibility = 'hidden'; 
 
+    // Update instructions
     instruction.innerHTML = 'Choose a subject that interests you.';
 }
 
 function zoom2(){
+
     // Zoom in to subject
     zoom = 2;
     chart.series[0].options.levels[1].levelSize.value = '30';
@@ -238,22 +234,38 @@ function zoom2(){
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'parallel';
     chart.series[0].options.levels[2].dataLabels.enabled = true; 
 
+    // Show reset button
     var resetButton = document.getElementById("reset");
     resetButton.style.visibility = 'visible'; 
 
+    // Update instructions
     var instruction = document.getElementById("instruction");                            
     instruction.innerHTML = 'Choose a degree that interests you.';
 }
 
 function showInfo(careerName){
    // lightbox = lity('/files/career-info.html?career=' + careerName); // Modify to pass careerName through to url
-   var x = document.getElementById("info-overlay");
-   if(x)
-   {
-        // Show info overlay 
-        x.classList.remove('hide');
-        document.getElementById("subheading").innerHTML = "So you want to be a " + career + "...";
+   var info = document.getElementById("info-overlay");
+   if(info){
+        
+        // Fade in info window 
+        info.classList.remove('hide');
+        info.classList.remove('fade-out');
+        info.classList.add('fade-in');
+        
+        // Update message at top of window
+        if(careerName.toLowerCase().charAt() == ('a' || 'e' || 'i' || 'o' || 'u')){
+            var message = "So you want to be an "; 
+        }
+        else{
+            var message = "So you want to be a "; 
+        }
+        document.getElementById("subheading").innerHTML = message + careerName + "...";
    }
+
+   // Fade in careerwheel
+   document.getElementById('container').classList.remove('fade-in');
+   document.getElementById('container').classList.add('fade-out');
 }
 
 function hideInfo(){

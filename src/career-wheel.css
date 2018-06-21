@@ -100,22 +100,28 @@ div.brd-label h2 {
 
 @media only screen and (min-width: 660px) and (max-width: 859px){
     #info-overlay{   
-        margin-left:-320px;
+        margin-left: -320px;
+        margin-top: 80px;
         width: 600;
+        top: 40px;
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 559px){
+@media only screen and (min-width: 500px) and (max-width: 659px){
     #info-overlay{   
         margin-left:-220px;
+        margin-top: initial;
         width: 400;
+        top: 20px;
     }
 }
 
 @media only screen and (max-width: 499px){
     #info-overlay{   
         margin-left:-150px;
+        margin-top: initial;
         width: 260;
+        top: 20px;
     }
 }
 

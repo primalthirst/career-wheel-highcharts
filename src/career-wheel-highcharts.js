@@ -188,6 +188,7 @@ function drawWheel(){
         }],
         tooltip: {
             enabled: false,
+            /*
             formatter: function () {
                 console.log(zoom, this.point.value);
                 console.log('this', this);
@@ -210,11 +211,10 @@ function drawWheel(){
                     return "What do I love?";
                 }
             }
+            */
         },
         colors: ['#79c267', ' #c5d647', ' #f5d63d', ' #f28c33', ' #e868a2', ' #bf62a6', ' #0392cf'],
     });
-
-    console.log("OPTIONS", chart.tooltip);
 }
 
 function getWidth() {
@@ -235,7 +235,7 @@ function zoom1(){
 
     // Zoom out to full wheel
     zoom = 1;
-    chart.series[0].options.levels[0].levelSize.value = '30';
+    chart.series[0].options.levels[0].levelSize.value = '35';
     chart.series[0].options.levels[1].levelSize.value = '70';
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'perpendicular';
     chart.series[0].options.levels[2].levelSize.value = '0';
@@ -253,7 +253,7 @@ function zoom2(){
 
     // Zoom in to subject
     zoom = 2;
-    chart.series[0].options.levels[1].levelSize.value = '30';
+    chart.series[0].options.levels[1].levelSize.value = '35';
     chart.series[0].options.levels[2].levelSize.value = '70';
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'parallel';
     chart.series[0].options.levels[2].dataLabels.enabled = true; 

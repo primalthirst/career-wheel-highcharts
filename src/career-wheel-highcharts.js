@@ -37,8 +37,7 @@ function init(){
             document.getElementById('career-wheel').classList.add('fade-in');
 
             // Fade in career wheel close button
-            //document.getElementsByClassName('lity-close')[0].classList.remove('fade-out');
-            //document.getElementsByClassName('lity-close')[0].classList.add('fade-in');
+            parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.remove('hide');
         };
     }
 }
@@ -82,6 +81,7 @@ function drawWheel(){
     chart = Highcharts.chart('container', {
         credits: false,
         chart: {
+            spacing: [0, 0, 0, 0],
             height: chartSize,
             backgroundColor:'null',
         },
@@ -91,10 +91,6 @@ function drawWheel(){
         plotOptions: {
             exporting: false,
             series: {
-                events: {
-                        afterAnimate: function() {                  
-                    }
-                },
                 cursor: 'pointer',
                 point: {
                     events: {
@@ -127,7 +123,6 @@ function drawWheel(){
             lineWidth: 2,
             states: {
                 hover: {
-                    enabled: false,
                     borderColor: '#222',
                 }
             },
@@ -135,6 +130,10 @@ function drawWheel(){
             data: data,
             allowDrillToNode: true,
             cursor: 'pointer',
+            colorVariation: {
+                    key: 'brightness',
+                    to: -0.5
+            },
             dataLabels: {   
                 padding: 0,
                 allowOverlap: true,    
@@ -145,7 +144,7 @@ function drawWheel(){
                     return s;
                 },
                 style:  {
-                    textShadow: true,
+                    textShadow: false,
                     fontSize: wheelFontSize,
                 }
             },
@@ -183,7 +182,7 @@ function drawWheel(){
                 colorVariation: {
                     key: 'brightness',
                     to: -0.5
-                }
+                },
             }]
 
         }],
@@ -293,10 +292,7 @@ function showInfo(careerName){
    document.getElementById('career-wheel').classList.add('fade-out');
 
    // Hide career wheel close button
-   console.log("*", document.getElementsByClassName('lity-close'));
-   console.log("*", document.getElementsByClassName('lity-close')[0]);
-   //document.getElementsByClassName('lity-close')[0].classList.remove('fade-in');
-   //document.getElementsByClassName('lity-close')[0].classList.add('fade-out');
+   parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
 }
 
 

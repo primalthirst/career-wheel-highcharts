@@ -51,27 +51,27 @@ function drawWheel(){
     if(w < 400){
         var wheelFontSize = '8px';
         var wheelFontOutline = false;
-        var chartHeight = '100%';
+        var chartSize = '100%';
     }    
     else if(w < 600){
-        var wheelFontSize = '10px';
-        var wheelFontOutline = false;
-        var chartHeight = '100%';
+        wheelFontSize = '10px';
+        wheelFontOutline = false;
+        chartSize = '100%';
     }
     else if(w < 760){
         wheelFontSize = '12px';
         wheelFontOutline = false;
-        chartHeight = '100%';
+        chartSize = '100%';
     }
     else if(w < 1024){
         wheelFontSize = '16px';   
         wheelFontOutline = true;
-        chartHeight = '90%';
+        chartSize = '80%';
     }
     else{
-        wheelFontSize = '24px';
+        wheelFontSize = '18px';
         wheelFontOutline = true;
-        chartHeight = '100%';
+        chartSize = '80%';
     }
     
 
@@ -82,7 +82,7 @@ function drawWheel(){
     chart = Highcharts.chart('container', {
         credits: false,
         chart: {
-            height: chartHeight,
+            height: chartSize,
             backgroundColor:'null',
         },
         title: {
@@ -127,6 +127,7 @@ function drawWheel(){
             lineWidth: 2,
             states: {
                 hover: {
+                    enabled: false,
                     borderColor: '#222',
                 }
             },
@@ -187,14 +188,15 @@ function drawWheel(){
 
         }],
         tooltip: {
+            enabled: false,
             formatter: function () {
-                //console.log(zoom, this.point.value);
+                console.log(zoom, this.point.value);
+                console.log('this', this);
                 if(zoom == 1 && this.point.value == 1){
                     return 'I love ' + this.point.name.toLowerCase();
                 }
                 else if(zoom == 2 && this.point.value == 2)
                 {
-                    return 
                     if(this.point.name.toLowerCase().charAt() == ('a' || 'e' || 'i' || 'o' || 'u')){
                         return 'I want to be an ' + this.point.name.toLowerCase();
                     }
@@ -212,6 +214,8 @@ function drawWheel(){
         },
         colors: ['#79c267', ' #c5d647', ' #f5d63d', ' #f28c33', ' #e868a2', ' #bf62a6', ' #0392cf'],
     });
+
+    console.log("OPTIONS", chart.tooltip);
 }
 
 function getWidth() {
@@ -261,7 +265,7 @@ function zoom2(){
 
     // Update instructions
     var instruction = document.getElementById("instruction");                            
-    instruction.innerHTML = 'Choose a degree that interests you.';
+    instruction.innerHTML = 'Choose a career that interests you.';
 }
 
 function showInfo(careerName){
@@ -315,6 +319,10 @@ function formatString(str, splitAt) {
 
 function hideInfo(){
     //lightbox.close();
+}
+
+window.onresize = function(){
+    drawWheel();
 }
 
 init();

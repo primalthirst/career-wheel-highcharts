@@ -22,6 +22,11 @@
     margin: 0 auto;
 }
 
+#instruction{
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
 .info-window-button{
     text-shadow: 0 1px 2px #55707D;
     color: #55707D;
@@ -41,20 +46,6 @@
 
 
 /* Career info overlay styles */
-#info-overlay{         
-    position: fixed;
-    top: 50%;
-    left: 50%; 
-    width:800px;
-    height:400px;
-    margin-left:-440px;
-    margin-top:-300px;
-    background-color: rgba(227, 238, 243, 1);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
 
 .fade-in {
     visibility: visible;
@@ -92,47 +83,45 @@ div.brd-label h2 {
     padding-bottom: 5px !important;
 }
 
-@media only screen and (min-width: 600px){
+
+#info-overlay{         
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    width:800px;
+    border-radius: 25px;
+    margin-left:-420px;
+    margin-top:-300px;
+    background-color: rgba(227, 238, 243, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 660px) and (max-width: 859px){
+    #info-overlay{   
+        margin-left:-320px;
+        width: 600;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 559px){
+    #info-overlay{   
+        margin-left:-220px;
+        width: 400;
+    }
+}
+
+@media only screen and (max-width: 499px){
+    #info-overlay{   
+        margin-left:-150px;
+        width: 260;
+    }
+}
+
+@media only screen and (min-width: 660px){
     .one-third-mobile{ 
         float: left;
         width: 33%;
-        }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 799px){
-
-    #info-overlay{   
-        position: absolute;
-        width: 80%;
-        margin-top: 0px;
-        margin-left: 20px;
-        top: 20px;
-        left: 0px;
-        height: inherit;
-    }
-}
-
-@media only screen and (max-width: 599px){
-
-    #info-overlay{   
-        position: absolute;
-        width: inherit;
-        margin-top: 0px;
-        margin-left: 20px;
-        margin-right: 20px;
-        left: 0px;
-        height: inherit;
-        top: 20px;
-    }
-
-    .lity-iframe-container{
-        width: 100%;
-        height: 56.25%;
-        padding-top: 56.25%;
-        overflow: auto;
-        pointer-events: auto;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        -webkit-overflow-scrolling: touch;
     }
 }

@@ -53,22 +53,27 @@ function drawWheel(){
     if(w < 400){
         var wheelFontSize = '8px';        
         var chartSize = '100%';
+        var wheelBorderWidth = 1;
     }    
     else if(w < 500){
         wheelFontSize = '10px';
         chartSize = '100%';
+        wheelBorderWidth = 1;
     }
     else if(w < 600){
         wheelFontSize = '11px';
         chartSize = '100%';
+        wheelBorderWidth = 1.5;
     }
     else if(w < 760){
         wheelFontSize = '12px';
         chartSize = '80%';
+        wheelBorderWidth = 1.5;
     }
     else{
         wheelFontSize = '14px';   
         chartSize = '80%';
+        wheelBorderWidth = 1.5;
     }
     
     zoom = 1;
@@ -113,6 +118,7 @@ function drawWheel(){
             type: "sunburst",
             borderColor: '#222222',
             lineWidth: 2,
+            borderWidth: wheelBorderWidth,
             states: {
                 hover: {
                     borderColor: '#222',

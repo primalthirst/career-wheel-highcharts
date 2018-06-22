@@ -11,7 +11,7 @@ var data = [{
 }, {
     'id': '1.2',
     'parent': '0.0',
-    'name': 'Health & Psychology',
+    'name': 'Health & psychology',
     'value': 1
 }, {
     'id': '1.3',
@@ -21,7 +21,7 @@ var data = [{
 }, {
     'id': '1.4',
     'parent': '0.0',
-    'name': 'Environment & earth Sciences',
+    'name': 'Environment\xa0& earth\xa0sciences',
     'value': 1
 }, {
     'id': '1.5',

@@ -12,6 +12,10 @@ function init(){
 
     drawWheel();
 
+    window.onresize = function(){
+        drawWheel();
+    }
+
     // Reset button
     var resetButton = document.getElementById('reset');
     if(resetButton){
@@ -45,10 +49,9 @@ function init(){
 function drawWheel(){
 
     var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    console.log("W: ", w);
 
     if(w < 400){
-        var wheelFontSize = '8px';
+        var wheelFontSize = '8px';        
         var wheelFontOutline = false;
         var chartSize = '100%';
     }    
@@ -73,12 +76,9 @@ function drawWheel(){
         chartSize = '80%';
     }
     
-
-    // Splice in transparent for the center circle
-    Highcharts.getOptions().colors.splice(0, 0, 'transparent');
-
     zoom = 1;
     chart = Highcharts.chart('container', {
+        colors: ['#79c267', ' #c5d647', ' #f5d63d', ' #f28c33', ' #e868a2', ' #bf62a6', ' #0392cf'],
         credits: false,
         chart: {
             spacing: [0, 0, 0, 0],
@@ -109,9 +109,6 @@ function drawWheel(){
                                 }
                                 chart.render();
                             }
-                            else{
-                                hideInfo();
-                            }
                         }
                     }
                 }
@@ -138,14 +135,17 @@ function drawWheel(){
                 padding: 0,
                 allowOverlap: true,    
                 rotationMode: 'perpendicular',    
+                /*
                 formatter: function(){
-                    var s = formatString(this.point.name, 16);
-                    console.log('split', s, this.point.name);
-                    return s;
+                    var s = splitString(this.point.name, 16);
+                    console.log('split', s, this.point.name);              
+                    return this.point.name;
                 },
+                */
                 style:  {
                     textShadow: false,
                     fontSize: wheelFontSize,
+                    textOverflow: 'none'
                 }
             },
             levels: [{
@@ -156,7 +156,7 @@ function drawWheel(){
                     value: 30
                 },
                 dataLabels: {
-                    rotationMode: 'parallel'                
+                    rotationMode: 'parallel',
                 }
             }, {
                 level: 2,
@@ -166,7 +166,7 @@ function drawWheel(){
                 },
                 colorByPoint: true,
                 dataLabels: {
-                    rotationMode: 'perpendicular'
+                    rotationMode: 'perpendicular',
                 },
             },
             {
@@ -177,7 +177,7 @@ function drawWheel(){
                     value: 0
                 },
                 dataLabels: {
-                    enabled : false                
+                    enabled : false,
                 },
                 colorVariation: {
                     key: 'brightness',
@@ -212,23 +212,8 @@ function drawWheel(){
                 }
             }
             */
-        },
-        colors: ['#79c267', ' #c5d647', ' #f5d63d', ' #f28c33', ' #e868a2', ' #bf62a6', ' #0392cf'],
+        }
     });
-}
-
-function getWidth() {
-    if (self.innerWidth) {
-        return self.innerWidth;
-    }
-
-    if (document.documentElement && document.documentElement.clientWidth) {
-        return document.documentElement.clientWidth;
-    }
-
-    if (document.body) {
-        return document.body.clientWidth;
-    }
 }
 
 function zoom1(){
@@ -236,7 +221,7 @@ function zoom1(){
     // Zoom out to full wheel
     zoom = 1;
     chart.series[0].options.levels[0].levelSize.value = '35';
-    chart.series[0].options.levels[1].levelSize.value = '70';
+    chart.series[0].options.levels[1].levelSize.value = '65';
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'perpendicular';
     chart.series[0].options.levels[2].levelSize.value = '0';
     chart.series[0].options.levels[2].dataLabels.enabled = false;
@@ -251,10 +236,10 @@ function zoom1(){
 
 function zoom2(){
 
-    // Zoom in to subject
+    // Zoom in to career options
     zoom = 2;
     chart.series[0].options.levels[1].levelSize.value = '35';
-    chart.series[0].options.levels[2].levelSize.value = '70';
+    chart.series[0].options.levels[2].levelSize.value = '65';
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'parallel';
     chart.series[0].options.levels[2].dataLabels.enabled = true; 
 
@@ -295,8 +280,23 @@ function showInfo(careerName){
    parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
 }
 
+/*
+function getWidth() {
+    if (self.innerWidth) {
+        return self.innerWidth;
+    }
 
-function formatString(str, splitAt) {
+    if (document.documentElement && document.documentElement.clientWidth) {
+        return document.documentElement.clientWidth;
+    }
+
+    if (document.body) {
+        return document.body.clientWidth;
+    }
+}
+*/
+
+function splitString(str, splitAt) {
     if(str.length > splitAt){
         console.log(str, splitAt);
         var p = 0;
@@ -311,14 +311,6 @@ function formatString(str, splitAt) {
         }
     }
     return str;
-}
-
-function hideInfo(){
-    //lightbox.close();
-}
-
-window.onresize = function(){
-    drawWheel();
 }
 
 init();

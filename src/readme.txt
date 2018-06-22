@@ -1,5 +1,5 @@
 
-Online example unpublished at - http://science.anu.edu.au/career-wheel-dev
+Online at - http://science.anu.edu.au/career-wheel-dev
 
 career-wheel-pane.html
 - Place in pane where you want the careerwheel to load
@@ -11,7 +11,11 @@ career-wheel.html
 
 career-wheel.css 
 - Place in /files/career-wheel
-- Contains style for the career wheel, buttons, and info window
+- Contains styles for the career wheel, buttons, and info window
+
+feathlight-custom.css
+- place in /files/career-wheel
+- Featherlight css customised to style close button
 
 career-wheel-data.js
 - Main code, renders and controls the career wheel

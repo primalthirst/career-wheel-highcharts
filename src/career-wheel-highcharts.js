@@ -52,27 +52,22 @@ function drawWheel(){
 
     if(w < 400){
         var wheelFontSize = '8px';        
-        var wheelFontOutline = false;
         var chartSize = '100%';
     }    
-    else if(w < 600){
+    else if(w < 500){
         wheelFontSize = '10px';
-        wheelFontOutline = false;
+        chartSize = '100%';
+    }
+    else if(w < 600){
+        wheelFontSize = '11px';
         chartSize = '100%';
     }
     else if(w < 760){
         wheelFontSize = '12px';
-        wheelFontOutline = false;
-        chartSize = '100%';
-    }
-    else if(w < 1024){
-        wheelFontSize = '16px';   
-        wheelFontOutline = true;
         chartSize = '80%';
     }
     else{
-        wheelFontSize = '18px';
-        wheelFontOutline = true;
+        wheelFontSize = '14px';   
         chartSize = '80%';
     }
     
@@ -83,7 +78,7 @@ function drawWheel(){
         chart: {
             spacing: [0, 0, 0, 0],
             height: chartSize,
-            backgroundColor:'null',
+            backgroundColor:'null'
         },
         title: {
             text: ''
@@ -132,20 +127,15 @@ function drawWheel(){
                     to: -0.5
             },
             dataLabels: {   
-                padding: 0,
                 allowOverlap: true,    
-                rotationMode: 'perpendicular',    
-                /*
-                formatter: function(){
-                    var s = splitString(this.point.name, 16);
-                    console.log('split', s, this.point.name);              
-                    return this.point.name;
-                },
-                */
+                rotationMode: 'perpendicular',
                 style:  {
+                    fontFamily: 'Helvetica',
                     textShadow: false,
                     fontSize: wheelFontSize,
-                    textOverflow: 'none'
+                    fontWeight: 'bold',
+                    textOverflow: 'none',
+                    textOutline: '1px contrast'
                 }
             },
             levels: [{
@@ -153,7 +143,7 @@ function drawWheel(){
                 levelIsConstant: false,
                 levelSize: {
                     unit: 'percentage',
-                    value: 30
+                    value: 28
                 },
                 dataLabels: {
                     rotationMode: 'parallel',
@@ -188,30 +178,6 @@ function drawWheel(){
         }],
         tooltip: {
             enabled: false,
-            /*
-            formatter: function () {
-                console.log(zoom, this.point.value);
-                console.log('this', this);
-                if(zoom == 1 && this.point.value == 1){
-                    return 'I love ' + this.point.name.toLowerCase();
-                }
-                else if(zoom == 2 && this.point.value == 2)
-                {
-                    if(this.point.name.toLowerCase().charAt() == ('a' || 'e' || 'i' || 'o' || 'u')){
-                        return 'I want to be an ' + this.point.name.toLowerCase();
-                    }
-                    else{
-                        return 'I want to be a ' + this.point.name.toLowerCase();
-                    }
-                }
-                else if(zoom == 2 && this.point.value == 1){
-                    return "Start again";
-                }
-                else{
-                    return "What do I love?";
-                }
-            }
-            */
         }
     });
 }
@@ -220,8 +186,8 @@ function zoom1(){
 
     // Zoom out to full wheel
     zoom = 1;
-    chart.series[0].options.levels[0].levelSize.value = '35';
-    chart.series[0].options.levels[1].levelSize.value = '65';
+    chart.series[0].options.levels[0].levelSize.value = '28';
+    chart.series[0].options.levels[1].levelSize.value = '72';
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'perpendicular';
     chart.series[0].options.levels[2].levelSize.value = '0';
     chart.series[0].options.levels[2].dataLabels.enabled = false;
@@ -238,8 +204,8 @@ function zoom2(){
 
     // Zoom in to career options
     zoom = 2;
-    chart.series[0].options.levels[1].levelSize.value = '35';
-    chart.series[0].options.levels[2].levelSize.value = '65';
+    chart.series[0].options.levels[1].levelSize.value = '28';
+    chart.series[0].options.levels[2].levelSize.value = '72';
     chart.series[0].options.levels[1].dataLabels.rotationMode = 'parallel';
     chart.series[0].options.levels[2].dataLabels.enabled = true; 
 
@@ -278,39 +244,6 @@ function showInfo(careerName){
 
    // Hide career wheel close button
    parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
-}
-
-/*
-function getWidth() {
-    if (self.innerWidth) {
-        return self.innerWidth;
-    }
-
-    if (document.documentElement && document.documentElement.clientWidth) {
-        return document.documentElement.clientWidth;
-    }
-
-    if (document.body) {
-        return document.body.clientWidth;
-    }
-}
-*/
-
-function splitString(str, splitAt) {
-    if(str.length > splitAt){
-        console.log(str, splitAt);
-        var p = 0;
-        for (;p < str.length && (str[p]!= ' ' && str[p] != '/'); p++){ 
-        }
-        
-        if(str[p] == ' '){      
-            return str.slice(0, p) + "<br/>" + str.slice(p + 1, str.length);
-        }
-        else if(str[p] == '/'){
-            return str.slice(0, p + 1) + "<br/>" + str.slice(p + 1, str.length);
-        }
-    }
-    return str;
 }
 
 init();

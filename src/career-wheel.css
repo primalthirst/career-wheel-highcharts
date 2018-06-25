@@ -1,5 +1,16 @@
 
 /* Career wheel styles */
+
+a {
+    color: #00549E;
+    word-wrap: break-word;
+}
+
+a:visited {
+    color: #4C6E78;
+    word-wrap: break-word;
+}
+
 #reset{
     font-family: Helvetica, Arial, Baskerville, monospace;
     background-color: #1e96d8;
@@ -70,8 +81,56 @@ h2{
     color: #55707D;
 }
 
+.icon-color {
+    color: #666666;
+}
+
+.bg-cmbe50 {
+    color: #80BEC9;
+}
+
+.bg-cps50 {
+    color: #80B49E;
+}
+
+.platinum10 {
+    color: #ACC0C6!important;
+}
+
+.nounderline{
+    text-decoration: none;
+}
+
 .noindent{
     padding: 0 0 0 15px;
+}
+
+.box20 {
+    padding: 20px;
+}
+
+.padbottom {
+    padding-bottom: 10px;
+}
+
+.width100 {
+    width: 100px;
+}
+
+.width160 {
+    width: 160px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.box20 {
+    padding: 20px;
+}
+
+.float {
+    float: left;
 }
 
 .overlay-content-inner{

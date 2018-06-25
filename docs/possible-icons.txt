@@ -1,0 +1,36 @@
+briefcase-medical
+flask
+certificate
+hospital / hospital-alt
+
+notes-medical
+
+pen-fancy
+pen-nib
+
+capsules
+
+chalkboard-teacher
+
+graduation-cap
+
+plus / divide /cube
+
+react
+
+lightbulb
+pagelines
+
+tree
+
+vials
+
+university
+
+user-md
+user / user-plus
+
+procedures
+seedling
+syringe
+thermometer-half

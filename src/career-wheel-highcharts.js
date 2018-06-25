@@ -262,26 +262,43 @@ function showInfo(careerName){
             list.removeChild(list.firstChild);
         }
         
+        var arrayColours = ["bg-cmbe50", "bg-cps50", "platinum10"];
+        var c = 0;
         careerInfo[careerName].degrees.forEach(function(item) {
             
             if(careerInfo[item])
             {
                 var link = careerInfo[item].url;
+                var icon = careerInfo[item].icon;
 
-                if(link)
+                if(link && icon)
                 {
+                    
+                    var ico = document.createElement('i');
+                    ico.className = 'fa-4x fa fa-' + icon + ' ' + arrayColours[c];
+                    c++;
+                    if(c == arrayColours.length) c = 1;
+
                     var a = document.createElement('a');
                     a.appendChild(document.createTextNode(item))
+                    a.className = "nounderline";
                     a.title = item;
                     a.href = link;
 
-                    var listItem = document.createElement('li');
-                    listItem.appendChild(a);
-                    list.appendChild(listItem); 
+                    var icoHolder = document.createElement('div');
+                    icoHolder.className = "padbottom"
+                    icoHolder.appendChild(ico);
+
+                    var box = document.createElement('div');  
+                    box.className = "box20 float width160 text-center"
+                    box.appendChild(icoHolder);
+                    box.appendChild(a);
+
+                    list.appendChild(box); 
                 }
                 else
                 {
-                    console.log("ERROR: Can't find link for:", item);
+                    console.log("ERROR: Can't find link or icon for:", item);
                 }
             }
             else
@@ -289,6 +306,8 @@ function showInfo(careerName){
                 console.log("ERROR: Can't find degree:", item)
             }
         }); 
+
+        /*
 
         // Show majors - Clear current list from info window than add list of relevant majors
         var list = document.getElementById("majors");
@@ -327,7 +346,9 @@ function showInfo(careerName){
             var listItem = document.createElement('li');
             listItem.appendChild(document.createTextNode(item));
             list.appendChild(listItem);
-        }); 
+        });
+
+        */ 
    }
    else
    {

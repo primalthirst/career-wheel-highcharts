@@ -47,10 +47,8 @@ function init(){
     }
 
     // Load career info JSON file
-
     loadJSON(function(response) {
         careerInfo = JSON.parse(response);
-        console.log("###", careerInfo);
     });
 }
 
@@ -240,7 +238,7 @@ function zoom2(){
 function showInfo(careerName){
    // lightbox = lity('/files/career-info.html?career=' + careerName); // Modify to pass careerName through to url
    var info = document.getElementById("info-overlay");
-   if(info){
+   if(info && careerInfo && careerInfo[careerName]){
         
         // Fade in info window 
         info.classList.remove('hide');
@@ -255,6 +253,88 @@ function showInfo(careerName){
             var message = "So you want to be a "; 
         }
         document.getElementById("subheading").innerHTML = message + careerName + "...";
+
+
+        // Show degrees - Clear current list from info window than add list of relevant degrees linking to college site
+        var list = document.getElementById("degrees");
+        
+        while (list.firstChild) {
+            list.removeChild(list.firstChild);
+        }
+        
+        careerInfo[careerName].degrees.forEach(function(item) {
+            
+            if(careerInfo[item])
+            {
+                var link = careerInfo[item].url;
+
+                if(link)
+                {
+                    var a = document.createElement('a');
+                    a.appendChild(document.createTextNode(item))
+                    a.title = item;
+                    a.href = link;
+
+                    var listItem = document.createElement('li');
+                    listItem.appendChild(a);
+                    list.appendChild(listItem); 
+                }
+                else
+                {
+                    console.log("ERROR: Can't find link for:", item);
+                }
+            }
+            else
+            {
+                console.log("ERROR: Can't find degree:", item)
+            }
+        }); 
+
+        // Show majors - Clear current list from info window than add list of relevant majors
+        var list = document.getElementById("majors");
+        
+        while (list.firstChild) {
+            list.removeChild(list.firstChild);
+        }
+        
+        careerInfo[careerName].majors.forEach(function(item) {
+            var listItem = document.createElement('li');
+            listItem.appendChild(document.createTextNode(item));
+            list.appendChild(listItem);
+        }); 
+
+        // Show minors - Clear current list from info window than add list of relevant minors
+        list = document.getElementById("minors");
+        
+        while (list.firstChild) {
+            list.removeChild(list.firstChild);
+        }
+        
+        careerInfo[careerName].minors.forEach(function(item) {
+            var listItem = document.createElement('li');
+            listItem.appendChild(document.createTextNode(item));
+            list.appendChild(listItem);
+        }); 
+
+        // Show specialisations - Clear current list from info window than add list of relevant specialisations
+        list = document.getElementById("specialisations");
+        
+        while(list.firstChild) {
+            list.removeChild(list.firstChild);
+        }
+        
+        careerInfo[careerName].specialisations.forEach(function(item) {
+            var listItem = document.createElement('li');
+            listItem.appendChild(document.createTextNode(item));
+            list.appendChild(listItem);
+        }); 
+   }
+   else
+   {
+        console.log("ERROR: Reading career info data");
+        console.log("Info overlay element:", info);
+        console.log("CareerInfo JSON object:", careerInfo);
+        console.log("Selected career in JSON object:", careerName, careerInfo[careerName]);
    }
 
    // Fade out career wheel

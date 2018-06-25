@@ -37,41 +37,20 @@ var data = [{
 
 
 /* Physics */
-{
-     'name': "Astronomer", 
-     'parent': '1.1', 
-     'value': 2, 
-     'url': 'physics',     
+    {
+     'name': "Astronomer", 'parent': '1.1', 'value': 2, 'url': 'physics',     
     },
     {
-     'name': "Astrophysicist",  
-     'parent': '1.1', 
-     'value': 2, 
-     'url': 'physics'
+     'name': "Astrophysicist", 'parent': '1.1', 'value': 2, 'url': 'physics'
     },
     {
-     'name': "Biophysicist", 
-     'parent': '1.1', 
-     'value': 2, 
-     'url': 'physics'
+     'name': "Biophysicist", 'parent': '1.1', 'value': 2, 'url': 'physics'
     },
     {
-     'name': "Instrument designer", 
-     'parent': '1.1', 
-     'value': 2, 
-     'url': 'physics'
+     'name': "Instrument designer", 'parent': '1.1', 'value': 2, 'url': 'physics'
     },
     {
-     'name': "Meteorologist", 
-     'parent': '1.1', 
-     'value': 2, 
-     'url': 'physics'
-    },
-    {
-     'name': "Photon scientist", 'parent': '1.1', 'value': 2, 'url': 'physics'
-    },
-    {
-     'name': "Plasma scientist", 'parent': '1.1', 'value': 2, 'url': 'physics'
+     'name': "Meteorologist", 'parent': '1.1', 'value': 2, 'url': 'physics'
     },
     {
      'name': "Physicist", 'parent': '1.1', 'value': 2, 'url': 'physics'
@@ -88,11 +67,16 @@ var data = [{
     {
      'name': "Science teacher", 'parent': '1.1', 'value': 2, 'url': 'physics'
     },
-
+    {
+     'name': "Software developer", 'parent': '1.1', 'value': 2, 'url': 'physics'
+    },
+    {
+     'name': "Web developer", 'parent': '1.1', 'value': 2, 'url': 'physics'
+    },
 // Health & Psychology
 
     {
-     'name': 'Dietitian', 'parent': '1.2', 'value': 2, 'url': 'health'     
+     'name': 'Dietician', 'parent': '1.2', 'value': 2, 'url': 'health'     
     },
     {
      'name': 'Pharmacist', 'parent': '1.2', 'value': 2,  'url': 'health'   
@@ -101,7 +85,7 @@ var data = [{
      'name': 'Physiotherapist', 'parent': '1.2', 'value': 2,  'url': 'health'
     },
     {
-     'name': 'Genetic counselor', 'parent': '1.2', 'value': 2,  'url': 'health'       
+     'name': 'Genetic counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
      'name': 'Health policy advisor', 'parent': '1.2', 'value': 2,  'url': 'health'       
@@ -116,26 +100,31 @@ var data = [{
      'name': 'Mental health counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'      
     },
     {
-     'name': 'Psychologist/ Psychiatrist', 'parent': '1.2', 'value': 2,  'url': 'health'       
+     'name': 'Psychologist/ psychiatrist', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
      'name': 'Rehabilitation counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'     
     },
     {
-     'name': 'Science teacher', 'parent': '1.2', 'value': 2, 'url': 'health'      
+     'name': 'Science teacher', 'parent': '1.2', 'value': 2, 'url': 'health'     
+    },
+    {
+     'name': 'Surgeon', 'parent': '1.2', 'value': 2, 'url': 'health'     
+    },
+    {
+     'name': 'Physician', 'parent': '1.2', 'value': 2, 'url': 'health'     
+    },
+    {
+     'name': 'Pathologist', 'parent': '1.2', 'value': 2, 'url': 'health'     
+    },
+    {
+     'name': 'Neuroscientist', 'parent': '1.2', 'value': 2, 'url': 'health'     
+    },
+    {
+     'name': 'Genetic counsellor', 'parent': '1.2', 'value': 2, 'url': 'health'     
     },
 
 // Maths
-
-    {
-     'name': 'Budget analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
-    },
-    {
-     'name': 'Programmer', 'parent': '1.3', 'value': 2, 'url': 'maths'
-    },
-    {
-     'name': 'Epidemiologist', 'parent': '1.3', 'value': 2, 'url': 'maths'
-    },
     {
      'name': 'Investment banker', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
@@ -143,29 +132,37 @@ var data = [{
      'name': 'Logistics specialist', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
-     'name': 'Market analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
+     'name': 'Numerical analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
      'name': 'Mathematician', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
-     'name': 'Numerical analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
+     'name': 'Market analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
+    },
+    {
+     'name': 'Programmer', 'parent': '1.3', 'value': 2, 'url': 'maths'
+    },
+    {
+     'name': 'Budget analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
      'name': 'Statistician', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
     {
-     'name': 'Researcher', 'parent': '1.3', 'value': 2, 'url': 'maths'
-    },
-    {
-     'name': 'Bioinformaticist', 'parent': '1.3', 'value': 2, 'url': 'maths'
-    },
-    {
      'name': 'Economist', 'parent': '1.3', 'value': 2, 'url': 'maths'
-    },
+    },    
     {
      'name': 'Science teacher', 'parent': '1.3', 'value': 2, 'url': 'maths'
+    }, 
+    {
+     'name': 'Systems Analyst', 'parent': '1.3', 'value': 2, 'url': 'maths'
     },
+    {
+     'name': 'Consultant', 'parent': '1.3', 'value': 2, 'url': 'maths'
+    },
+
+
 
 // Environment & Earth Science
 

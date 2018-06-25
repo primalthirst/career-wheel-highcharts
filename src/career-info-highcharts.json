@@ -1,0 +1,98 @@
+{
+	"Laboratory technician":{
+		"Degrees":"Bachelor of Genetics",
+		"Majors":"Biochemistry",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Advanced quantitative biology and bioinformatics"
+	},
+	"Genetic counsellor":{
+		"Degrees":"Bachelor of Genetics",
+		"Majors":"Biochemistry",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Advanced quantitative biology and bioinformatics "
+	},
+	"Health policy advisor":{
+		"Degrees":"Bachelor of Health Science",
+		"Majors":"Cell & Molecular Biology",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Biology honours"
+	},
+	"Behaviour therapist ":{
+		"Degrees":"Bachelor of Philosophy (Honours)",
+		"Majors":"Human Biology",
+		"Minors ":"Abnormal psychology",
+		"Specialisations":"Biology honours"
+	},
+	"Mental health counsellor":{
+		"Degrees":"Bachelor of Philosophy (Honours)",
+		"Majors":"Human Biology",
+		"Minors ":"Abnormal psychology",
+		"Specialisations":"Biology honours"
+	},
+	"Psychologist/psychiatrist":{
+		"Degrees":"Bachelor of Philosophy (Honours)",
+		"Majors":"Psychology",
+		"Minors ":"Abnormal psychology",
+		"Specialisations":"Psychology"
+	},
+	"Rehabilitation counsellor":{
+		"Degrees":"Bachelor of Philosophy (Honours)",
+		"Majors":"Human Biology",
+		"Minors ":"Abnormal psychology",
+		"Specialisations":"Biology honours"
+	},
+	"Physiotherapist ":{
+		"Degrees":"Bachelor of Genetics",
+		"Majors":"Cell & Molecular Biology",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Biology honours"
+	},
+	"Pharmacist":{
+		"Degrees":"Bachelor of Genetics",
+		"Majors":"Biochemistry",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Biochemistry"
+	},
+	"Dietician":{
+		"Degrees":"Bachelor of Genetics",
+		"Majors":"Biochemistry",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Biochemistry"
+	},
+	"Science teacher":{
+		"Degrees":"Bachelor of Genetics",
+		"Majors":"Any majors",
+		"Minors ":"Any minors",
+		"Specialisations":"Professional Science Engagement"
+	},
+	"General Practitioner":{
+		"Degrees":"Bachelor of Health Science",
+		"Majors":"Biochemistry",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Biochemistry"
+	},
+	"Surgeon":{
+		"Degrees":"Bachelor of Health Science",
+		"Majors":"Cell & Molecular Biology",
+		"Minors ":"",
+		"Specialisations":"Biomedical science "
+	},
+	"Physician":{
+		"Degrees":"Bachelor of Health Science",
+		"Majors":"Biochemistry",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Biochemistry"
+	},
+	"Pathologist":{
+		"Degrees":"Bachelor of Genetics",
+		"Majors":"Biochemistry",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Biochemistry"
+	},
+	"Neuroscientist":{
+		"Degrees":"Bachelor of Health Science",
+		"Majors":"Biochemistry",
+		"Minors ":"Biological neuropsychology",
+		"Specialisations":"Biomedical science "
+	}
+}

@@ -2,6 +2,7 @@
 var lightbox;
 var chart;
 var zoom;
+var careerInfo;
 
 function init(){
 
@@ -44,6 +45,13 @@ function init(){
             parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.remove('hide');
         };
     }
+
+    // Load career info JSON file
+
+    loadJSON(function(response) {
+        careerInfo = JSON.parse(response);
+        console.log("###", careerInfo);
+    });
 }
 
 function drawWheel(){
@@ -91,6 +99,11 @@ function drawWheel(){
         plotOptions: {
             exporting: false,
             series: {
+                states: {
+                    hover: {
+                        color: 'rgba(255,255,255, 0.9)'
+                    }
+                },
                 cursor: 'pointer',
                 point: {
                     events: {
@@ -251,5 +264,19 @@ function showInfo(careerName){
    // Hide career wheel close button
    parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
 }
+
+ function loadJSON(callback) {   
+
+    var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+    xobj.open('GET', '/sites/science.anu.edu.au/libraries/career-wheel/career-info-highcharts.json', true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+ }
 
 init();

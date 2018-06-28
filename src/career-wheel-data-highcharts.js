@@ -167,16 +167,16 @@ var data = [{
 // Environment & Earth Science
 
     {
-     'name': 'Soil scientist', 'parent': '1.4', 'value': 2, 'url': 'earth'
-    },
-    {
-     'name': 'Urban planner', 'parent': '1.4', 'value': 2, 'url': 'earth'
-    },
-    {
      'name': 'Conservation officer', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
-     'name': 'Eco-tourism planner', 'parent': '1.4', 'value': 2, 'url': 'earth'
+     'name': 'Eco-tourism officer', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },
+    {
+     'name': 'Sustainability consultant', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },
+    {
+     'name': 'Oceanographer', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
      'name': 'Fire consultant', 'parent': '1.4', 'value': 2, 'url': 'earth'
@@ -188,13 +188,10 @@ var data = [{
      'name': 'Geologist', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
-     'name': 'Oceanographer', 'parent': '1.4', 'value': 2, 'url': 'earth'
+     'name': 'Urban planner', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
      'name': 'Geophysicist', 'parent': '1.4', 'value': 2, 'url': 'earth'
-    },
-    {
-     'name': 'Geobiologist', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
      'name': 'Marine biologist', 'parent': '1.4', 'value': 2, 'url': 'earth'
@@ -203,96 +200,94 @@ var data = [{
      'name': 'Seismologist', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
-     'name': 'Sustainability consultant', 'parent': '1.4', 'value': 2, 'url': 'earth'
-    },
-    {
      'name': 'Science reporter', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
      'name': 'Science teacher', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },    
+    {
+     'name': 'Parks Ranger', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },
+    {
+     'name': 'Wildlife Manager', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },
+    {
+     'name': 'Ecologist', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },
+    {
+     'name': 'Geographer', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },
+    {
+     'name': 'Environmental scientist', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },
+    {
+     'name': 'Atmospheric Scientist', 'parent': '1.4', 'value': 2, 'url': 'earth'
+    },
+    {
+     'name': 'Climate change scientist', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
 
 // Biology
 
     {
-     'name': 'Biochemist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Botanist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Entomologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Ecologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Science reporter', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Microbiologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Conservation biologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
      'name': 'Biomedical researcher', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Immunologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Animal behaviourist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Biotechnologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Biochemical geneticist', 'parent': '1.5', 'value': 2, 'url': 'biology'
-    },
-    {
-     'name': 'Clinical researcher', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
      'name': 'Food and drug inspector', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
     {
+     'name': 'Animal behaviouralist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Conservation biologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Science reporter', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
      'name': 'Science teacher', 'parent': '1.5', 'value': 2, 'url': 'biology'
     },
-
+    {
+     'name': 'Botanist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Immunologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Microbiologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Biotechnologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Ecologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Entomologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Biochemist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Epidemiologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    {
+     'name': 'Zoologist', 'parent': '1.5', 'value': 2, 'url': 'biology'
+    },
+    
+    
 // Chemistry
     {
-    'name': 'Pathologist', 'parent': '1.6', 'value': 2, 'url': 'chemistry'
-    },
-    {
-     'name': 'Astrochemist','parent': '1.6', 'value': 2, 'url': 'chemistry"'
-    },
-    {
-     'name': 'Pharmacist','parent': '1.6', 'value': 2, 'url': 'chemistry'
-    },
-    {
-     'name': 'Pharmacologist','parent': '1.6', 'value': 2, 'url': 'chemistry'
-    },
-    {
-     'name': 'Radiochemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
-    },
-    {
-     'name': 'Textile chemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
+     'name': 'Chemical engineer','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
      'name': 'Pharmaceutical chemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
-     'name': 'Chemical engineer','parent': '1.6', 'value': 2, 'url': 'chemistry'
+     'name': 'Chemical physicist','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
      'name': 'Biochemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
-    },
-    {
-     'name': 'Chemical physicists','parent': '1.6', 'value': 2, 'url': 'chemistry'
-    },
-    {
-     'name': 'Animal Behaviourist','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
      'name': 'Patent agent','parent': '1.6', 'value': 2, 'url': 'chemistry'
@@ -301,10 +296,16 @@ var data = [{
      'name': 'Science reporter','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
-     'name': 'Developmental chemist','parent': '1.6', 'value': 2, 'url': 'chemistry'
+     'name': 'Science teacher','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
-     'name': 'Science teacher','parent': '1.6', 'value': 2, 'url': 'chemistry'
+    'name': 'Forensic Scientist', 'parent': '1.6', 'value': 2, 'url': 'chemistry'
+    },
+    {
+     'name': 'Nanotechnologist','parent': '1.6', 'value': 2, 'url': 'chemistry"'
+    },
+    {
+     'name': 'Toxicologist','parent': '1.6', 'value': 2, 'url': 'chemistry'
     }
 ];
 

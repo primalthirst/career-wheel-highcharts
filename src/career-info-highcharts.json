@@ -55,242 +55,236 @@
     "url": "http://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability-advanced-honours",
     "icon": "tree"
   },
-  "Bachelor of Environment & Sustainability (Advanced) (Honours)": {
+  "Bachelor of Environment & Sustainability (Advanced)(Honours)": {
     "url": "http://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability-advanced-honours",
     "icon": "tree"
   },
   "Laboratory technician": {
-    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell & Molecular Biology", "Human Biology", "Quantitative Biology"],
-    "minors": ["Biological neuropsychology", "Human Ecology"],
-    "specialisations": ["Advanced quantitative biology and bioinformatics ", "Biochemistry", "Biology honours", "Biomedical science ", "Medical research honours", "Microbiology and immunology ", "Neuroscience and physiology ", "Population health honours", "Science honours"]
+    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Genetic counsellor": {
-    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell & Molecular Biology", "Human Biology"],
-    "minors": ["Biological neuropsychology", "Human Ecology"],
-    "specialisations": ["Advanced quantitative biology and bioinformatics ", "Biochemistry", "Biology honours", "Biomedical science ", "Medical research honours", "Population health honours", "Science honours"]
+    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Health policy advisor": {
-    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"],
-    "majors": ["Cell & Molecular Biology", "Human Biology", "Psychology"],
-    "minors": ["Biological neuropsychology", "Human Ecology", "Business psychology", "Social psychology"],
-    "specialisations": ["Biology honours", "Biomedical science ", "Medical research honours", "Microbiology and immunology ", "Neuroscience and physiology ", "Population health honours", "Psychology", "Psychology honours", "Science honours"]
+    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"]
   },
   "Behaviour therapist": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"],
-    "majors": ["Human Biology", "Psychology"],
-    "minors": ["Abnormal psychology", "Biological neuropsychology", "Business psychology", "Cognitive psychology", "Developmental psychology", "Social psychology"],
-    "specialisations": ["Biology honours", "Psychology", "Psychology honours"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"]
   },
   "Mental health counsellor": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"],
-    "majors": ["Human Biology", "Psychology"],
-    "minors": ["Abnormal psychology", "Biological neuropsychology", "Business psychology", "Cognitive psychology", "Developmental psychology", "Social psychology"],
-    "specialisations": ["Biology honours", "Psychology", "Psychology honours"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"]
   },
   "Psychologist/ psychiatrist": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"],
-    "majors": ["Psychology"],
-    "minors": ["Abnormal psychology", "Biological neuropsychology", "Business psychology", "Cognitive psychology", "Developmental psychology", "Social psychology"],
-    "specialisations": ["Psychology", "Psychology honours"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"]
   },
   "Rehabilitation counsellor": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"],
-    "majors": ["Human Biology", "Psychology"],
-    "minors": ["Abnormal psychology", "Biological neuropsychology", "Business psychology", "Cognitive psychology", "Developmental psychology", "Social psychology"],
-    "specialisations": ["Biology honours", "Psychology", "Psychology honours"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"]
   },
   "Physiotherapist": {
-    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Cell & Molecular Biology", "Human Biology"],
-    "minors": ["Biological neuropsychology", "Human Ecology"],
-    "specialisations": ["Biology honours", "Biomedical science ", "Medical research honours", "Population health honours", "Science honours"]
+    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Pharmacist": {
-    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell & Molecular Biology", "Human Biology"],
-    "minors": ["Biological neuropsychology", "Human Ecology"],
-    "specialisations": ["Biochemistry", "Biology honours", "Biomedical science ", "Medical research honours", "Microbiology and immunology ", "Neuroscience and physiology ", "Population health honours", "Science honours"]
+    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Dietician": {
-    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell & Molecular Biology", "Human Biology"],
-    "minors": ["Biological neuropsychology", "Human Ecology"],
-    "specialisations": ["Biochemistry", "Biology honours", "Biomedical science ", "Medical research honours", "Population health honours", "Science honours"]
+    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Science teacher": {
-    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Psychology (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Bachelor of Science (Psychology)", "Diploma of Science"],
-    "majors": ["Any majors", "Science communication"],
-    "minors": ["Any minors", "Science communication"],
-    "specialisations": ["Professional Science Engagement"]
+    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Psychology (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Bachelor of Science (Psychology)", "Diploma of Science"]
   },
   "General Practitioner": {
-    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell & Molecular Biology", "Human Biology"],
-    "minors": ["Biological neuropsychology", "Human Ecology", "Cognitive psychology", "Developmental psychology"],
-    "specialisations": ["Biochemistry", "Biology honours", "Biomedical science ", "Medical research honours", "Microbiology and immunology ", "Neuroscience and physiology ", "Population health honours", "Science honours"]
+    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Surgeon": {
-    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science (Advanced)(Honours)"],
-    "majors": ["Cell & Molecular Biology", "Human Biology"],
-    "minors": [],
-    "specialisations": ["Biomedical science ", "Medical research honours", "Neuroscience and physiology "]
+    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science (Advanced)(Honours)"]
   },
   "Physician": {
-    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell & Molecular Biology", "Human Biology"],
-    "minors": ["Biological neuropsychology", "Human Ecology", "Cognitive psychology", "Developmental psychology"],
-    "specialisations": ["Biochemistry", "Biology honours", "Biomedical science ", "Medical research honours", "Microbiology and immunology ", "Neuroscience and physiology ", "Population health honours", "Science honours"]
+    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Pathologist": {
-    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell & Molecular Biology", "Human Biology"],
-    "minors": ["Biological neuropsychology", "Human Ecology"],
-    "specialisations": ["Biochemistry", "Biology honours", "Biomedical science ", "Medical research honours", "Population health honours", "Science honours"]
+    "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Neuroscientist": {
-    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell & Molecular Biology", "Human Biology"],
-    "minors": ["Biological neuropsychology"],
-    "specialisations": ["Biomedical science ", "Medical research honours", "Neuroscience and physiology "]
+    "degrees": ["Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Instrument designer": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Computer Science", "Mathematical Modelling", "Physics"],
-    "minors": ["Computer Science", "Mathematics", "Physics"],
-    "specialisations": ["Advanced mathematics", "Advanced physics", "Mathematical physics", "Mathematics honours ", "Physics honours", "Science honours"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Robotics technician": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Computer Science", "Mathematical modelling ", "Physics"],
-    "minors": ["Computer science", "Mathematics"],
-    "specialisations": ["Advanced Physics", "Mathematical Physics", "Optics"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Material scientist": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Chemistry", "Computer Science", "Interdisciplinary Science", "Mathematics", "Physics"],
-    "minors": ["Chemistry", "Computer Science", "Interdisciplinary Science", "Mathematics", "Physics"],
-    "specialisations": ["Advanced chemistry", "Advanced mathematics", "Advanced physics", "Chemistry honours", "Mathematical physics", "Mathematics honours ", "Physics honours", "Science honours"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Meteorologist": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Bachelor of Environment & Sustainability", "Bachelor of Environment & Sustainability (Advanced)", "Diploma of Science"],
-    "majors": ["Chemistry", "Computer science", "Earth science", "Environmental science", "Geography", "Marine science", "Mathematics", "Water Science", "Physics"],
-    "minors": ["Chemistry", "Earth and marine sciences", "Geography", "Physics", "Water science and policy", "Climate science and policy"],
-    "specialisations": ["Earth Physics", "Climate Science and Policy", "Marine Geoscience"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Bachelor of Environment & Sustainability", "Bachelor of Environment & Sustainability (Advanced)", "Diploma of Science"]
   },
   "Astrophysicist": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Earth science", "Mathematical modelling ", "Mathematics", "Physics", "Theoretical Physics", "Statistics"],
-    "minors": ["Applied statistics", "Computer science", "Earth and marine sciences", "Mathematics", "Physics"],
-    "specialisations": ["Astronomy and Astrophysics", "Optics", "Mathematical Physics"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Physicist": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Physics", "Theoretical Physics", "Mathematics"],
-    "minors": ["Physics"],
-    "specialisations": ["Advanced Physics", "Optics", "Mathematical Physics"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Biophysicist": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Biochemistry", "Cell and Molecular Biology", "Quantitative Biology", "Physics"],
-    "minors": ["Biology", "Biochemistry", "Computer science", "Mathematics", "Biological Neuropsychology"],
-    "specialisations": ["Neuroscience and Physiology", "Advanced Quantitative Biology and Bioinformatics"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Astronomer": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Earth science", "Mathematical modelling ", "Mathematics", "Physics", "Theoretical Physics", "Statistics"],
-    "minors": ["Applied statistics", "Computer science", "Earth and marine sciences", "Mathematics", "Physics"],
-    "specialisations": ["Astronomy and Astrophysics", "Optics"]
-  },
-  "Science reporter": {
-    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Science communication"],
-    "minors": ["Science communication"],
-    "specialisations": ["Professional Science Engagement"]
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Software developer": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"],
-    "majors": ["Physics", "Computer science", "Theoretical Physics", "Science communication"],
-    "minors": ["Science communication"],
-    "specialisations": []
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Web developer": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)"],
-    "majors": ["Computer science", "Physics", "Science communication", "Interdisciplinary Science"],
-    "minors": ["Science communication"],
-    "specialisations": ["Professional Science Engagement"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)"]
   },
   "Investment banker": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Mathematical Economics", "Mathematical Finance", "Mathematical Modelling", "Computer Science", "Statistics", "Mathematics"],
-    "minors": ["Computer Science", "Applied Statistics", "Business Psychology"],
-    "specialisations": ["Advanced Mathematics"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Logistics specialist": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Mathematics"],
-    "minors": ["Applied Statistics", "Business Psychology"],
-    "specialisations": ["Disaster Studies", "Environmental Policy"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Numerical analyst": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Statistics", "Mathematics"],
-    "minors": ["Computer Science", "Applied Statistics"],
-    "specialisations": ["Advanced Mathematics"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Mathematician": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Mathematics", "Mathematical Economics", "Mathematical Finance", "Mathematical Modelling"],
-    "minors": ["Computer Science", "Mathematics"],
-    "specialisations": ["Mathematical Physics", "Advanced Mathematics", "Mathematics honours"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Market analyst": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)", "Diploma of Science"],
-    "majors": ["Mathematical Economics", "Mathematical Finance", "Mathematical Modelling", "Computer Science", "Statistics", "Mathematics"],
-    "minors": ["Computer Science", "Applied Statistics", "Business Psychology", "Social Psychology", "Mathematics"],
-    "specialisations": ["Natural Resource Management", "Environmental Policy", "Advanced Mathematics", "Mathematics honours"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)", "Diploma of Science"]
   },
   "Programmer": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Computer Science", "Mathematics", "Mathematical Modelling"],
-    "minors": ["Computer Science", "Mathematics"],
-    "specialisations": ["Advanced Mathematics", "Mathematics honours"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Budget analyst": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Mathematical Economics", "Mathematical Finance", "Mathematical Modelling", "Computer Science", "Statistics", "Mathematics"],
-    "minors": ["Computer Science", "Applied Statistics", "Business Psychology", "Mathematics"],
-    "specialisations": ["Natural Resource Management", "Sustainability Science", "Advanced Mathematics", "Environmental Policy", "Mathematics honours"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Statistician": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Statistics", "Mathematics", "Mathematical Economics", "Mathematical Finance", "Mathematical Modelling"],
-    "minors": ["Computer Science", "Applied Statistics", "Mathematics"],
-    "specialisations": ["Advanced Mathematics", "Mathematics honours"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Economist": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Mathematical Economics", "Mathematical Finance", "Mathematical Modelling", "Computer Science", "Statistics", "Mathematics"],
-    "minors": ["Computer Science", "Applied Statistics", "Business Psychology", "Sustainable Development", "Soil and Land Management", "Social Psychology"],
-    "specialisations": ["Natural Resource Management", "Sustainability Science", "Advanced Mathematics", "Environmental Policy"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Software Engineer": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Computer Science", "Interdisciplinary Science", "Mathematical Modelling", "Mathematics"],
-    "minors": ["Business Psychology", "Computer Science", "Mathematics"],
-    "specialisations": ["Advanced Mathematics", "Mathematics honours", "Science honours"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Systems Analyst": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Computer Science", "Interdisciplinary Science", "Mathematical Modelling", "Mathematics"],
-    "minors": ["Business Psychology", "Computer Science", "Mathematics", "Applied Statistics"],
-    "specialisations": ["Advanced Mathematics", "Mathematics honours", "Science honours"]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
   },
   "Consultant": {
-    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"],
-    "majors": ["Any majors"],
-    "minors": ["Any minors"],
-    "specialisations": ["Science communication honours", "Science honours", "Professional science engagement "]
+    "degrees": ["Bachelor of Mathematical Sciences", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)", "Diploma of Science"]
+  },
+  "Chemical engineer":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Pharmaceutical chemist":{
+    "degrees":["Bachelor of Genetics","Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Chemical physicist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Biochemist":{
+    "degrees":["Bachelor of Genetics", "Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Patent agent":{
+    "degrees":["Bachelor of Genetics", "Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Science reporter":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Forensic Scientist":{
+    "degrees":["Bachelor of Genetics", "Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Nanotechnologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Bachelor of Science/Master of Teaching","Diploma of Science"]
+  },
+  "Toxicologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Bachelor of Science/Master of Teaching","Diploma of Science"]
+  },
+  "Biomedical researcher":{
+      "degrees":["Bachelor of Health Science","Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Food and drug inspector":{
+    "degrees":["Bachelor of Biotechnology","Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Animal behaviouralist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Conservation biologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)(Honours)"]
+  },
+  "Botanist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Bachelor of Science/Master of Teaching","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)(Honours)"]
+  },
+  "Immunologist":{
+    "degrees":["Bachelor of Health Science","Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Microbiologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Biotechnology"]
+  },
+  "Biotechnologist":{
+    "degrees":["Bachelor of Biotechnology","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Ecologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)(Honours)"]
+  },
+  "Entomologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Epidemiologist":{
+    "degrees":["Bachelor of Health Science","Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Zoologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)(Honours)"]
+  },
+  "Conservation officer":{
+  "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Ecotourism Officer":{
+    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Sustainability consultant":{
+    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Oceanographer":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+  },
+  "Fire consultant":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+  },
+  "Forester":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+  },
+  "Geologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Urban Planner":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+  },
+  "Geophysicist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Marine biologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Seismologist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Parks Ranger":{
+    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Wildlife Manager":{
+    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Geographer":{
+    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Environmental scientist":{
+    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  },
+  "Atmospheric Scientist":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+  },
+  "Climate change scientis":{
+    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   }
 }

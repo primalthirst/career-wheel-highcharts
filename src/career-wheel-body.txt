@@ -1,0 +1,5 @@
+<p>Do you have a career in mind? Use our career wheel to find what science degrees will help you fulfil your career ambitions.</p>
+
+<div id="wheel-intro-text">
+	<p>The wheel is also available as a <a href="/files/SCI171462_Careers_Flyer_v3_WEB_0.pdf">pdf document (1.5 MB)</a>.</p>
+</div>

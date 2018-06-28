@@ -279,19 +279,19 @@ function showInfo(careerName){
                     c++;
                     if(c == arrayColours.length) c = 1;
 
+                    var icoHolder = document.createElement('div');
+                    icoHolder.className = "padbottom"
+                    icoHolder.appendChild(ico);
+
                     var a = document.createElement('a');
+                    a.appendChild(icoHolder);
                     a.appendChild(document.createTextNode(item))
                     a.className = "nounderline";
                     a.title = item;
                     a.href = link;
 
-                    var icoHolder = document.createElement('div');
-                    icoHolder.className = "padbottom"
-                    icoHolder.appendChild(ico);
-
                     var box = document.createElement('div');  
-                    box.className = "float degree-box text-center"
-                    box.appendChild(icoHolder);
+                    box.className = "float degree-box text-center"                    
                     box.appendChild(a);
 
                     list.appendChild(box); 

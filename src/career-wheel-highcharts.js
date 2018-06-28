@@ -247,12 +247,12 @@ function showInfo(careerName){
 
         // Update message at top of window
         if(careerName.toLowerCase().charAt() == ('a' || 'e' || 'i' || 'o' || 'u')){
-            var message = "So you want to be an "; 
+            var message = "Choose one of these degrees to start your career as an "; 
         }
         else{
-            var message = "So you want to be a "; 
+            var message = "Choose one of these degrees to start your career as a "; 
         }
-        document.getElementById("subheading").innerHTML = message + careerName + "...";
+        document.getElementById("subheading").innerHTML = message + careerName + ".";
 
 
         // Show degrees - Clear current list from info window than add list of relevant degrees linking to college site
@@ -308,49 +308,6 @@ function showInfo(careerName){
                 console.log("ERROR: Can't find degree:", item)
             }
         }); 
-
-        /*
-
-        // Show majors - Clear current list from info window than add list of relevant majors
-        var list = document.getElementById("majors");
-        
-        while (list.firstChild) {
-            list.removeChild(list.firstChild);
-        }
-        
-        careerInfo[careerName].majors.forEach(function(item) {
-            var listItem = document.createElement('li');
-            listItem.appendChild(document.createTextNode(item));
-            list.appendChild(listItem);
-        }); 
-
-        // Show minors - Clear current list from info window than add list of relevant minors
-        list = document.getElementById("minors");
-        
-        while (list.firstChild) {
-            list.removeChild(list.firstChild);
-        }
-        
-        careerInfo[careerName].minors.forEach(function(item) {
-            var listItem = document.createElement('li');
-            listItem.appendChild(document.createTextNode(item));
-            list.appendChild(listItem);
-        }); 
-
-        // Show specialisations - Clear current list from info window than add list of relevant specialisations
-        list = document.getElementById("specialisations");
-        
-        while(list.firstChild) {
-            list.removeChild(list.firstChild);
-        }
-        
-        careerInfo[careerName].specialisations.forEach(function(item) {
-            var listItem = document.createElement('li');
-            listItem.appendChild(document.createTextNode(item));
-            list.appendChild(listItem);
-        });
-
-        */ 
    }
    else
    {

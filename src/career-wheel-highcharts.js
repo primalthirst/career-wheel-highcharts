@@ -285,9 +285,13 @@ function showInfo(careerName){
                     icoHolder.className = "padbottom"
                     icoHolder.appendChild(ico);
 
+                    var degreeTitle = document.createElement('div');
+                    degreeTitle.appendChild(document.createTextNode(item))
+
                     var a = document.createElement('a');
                     a.appendChild(icoHolder);
-                    a.appendChild(document.createTextNode(item))
+                    a.appendChild(degreeTitle);
+                    //a.appendChild(document.createTextNode(item))
                     a.className = "nounderline";
                     a.title = item;
                     a.href = link;

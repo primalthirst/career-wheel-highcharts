@@ -109,6 +109,11 @@ h2{
     padding-bottom: 10px;
 }
 
+.icon-image{
+    width: 72px;
+    height: 72px;
+}
+
 .degree-box{
     -webkit-box-shadow: 2px 2px 7px 0px rgba(51, 51, 51, 0.75);
     -moz-box-shadow: 2px 2px 7px 0px rgba(51, 51, 51, 0.75);

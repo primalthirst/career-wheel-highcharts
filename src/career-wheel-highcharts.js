@@ -274,8 +274,10 @@ function showInfo(careerName){
                 if(link && icon)
                 {
                     
-                    var ico = document.createElement('i');
-                    ico.className = 'fa-4x fa fa-' + icon + ' ' + arrayColours[c];
+                    var ico = document.createElement('img');
+                    //ico.className = 'fa-4x fa fa-' + icon + ' ' + arrayColours[c];
+                    ico.src = icon;
+                    ico.className = "icon-image";
                     c++;
                     if(c == arrayColours.length) c = 1;
 

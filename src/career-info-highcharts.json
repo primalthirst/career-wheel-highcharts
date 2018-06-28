@@ -1,67 +1,67 @@
 {
   "Diploma of Science": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/diploma-science",
-    "icon": "certificate"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/diploma.png"
   },
   "Bachelor of Science": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-science",
-    "icon": "lightbulb"
-  },
-  "Bachelor of Genetics": {
-    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-genetics",
-    "icon": "vials"
-  },
-  "Bachelor of Health Science": {
-    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-health-science",
-    "icon": "hospital"
-  },
-  "Bachelor of Medical Science": {
-    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-medical-science",
-    "icon": "syringe"
-  },
-  "Bachelor of Science (Psychology)": {
-    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-science-psychology",
-    "icon": "users"
-  },
-  "Bachelor of Psychology (Honours)": {
-    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-psychology-honours",
-    "icon": "user-friends"
-  },
-  "Bachelor of Philosophy (Honours)": {
-    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-philosophy-honours-phb",
-    "icon": "university"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/science.png"
   },
   "Bachelor of Science (Advanced)(Honours)": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-science-advanced-honours",
-    "icon": "pen-fancy"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/science-advanced.png"
   },
   "Bachelor of Science (Advanced)": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-science-advanced-honours",
-    "icon": "pen-fancy"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/science-advanced.png"
+  },
+  "Bachelor of Genetics": {
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-genetics",
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/genetics.png"
+  },
+  "Bachelor of Health Science": {
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-health-science",
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/health.png"
+  },
+  "Bachelor of Medical Science": {
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-medical-science",
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/medical.png"
+  },
+  "Bachelor of Science (Psychology)": {
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-science-psychology",
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/psychology.png"
+  },
+  "Bachelor of Psychology (Honours)": {
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-psychology-honours",
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/psychology-honours.png"
+  },
+  "Bachelor of Philosophy (Honours)": {
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-philosophy-honours-phb",
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/philosophy.png"
   },
   "Bachelor of Mathematical Sciences": {
     "url": "https://science.anu.edu.au/bachelor-mathematical-sciences",
-    "icon": "cube"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/maths.png"
   },
   "Bachelor of Science/Master of Teaching": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-science-master-teaching",
-    "icon": "chalkboard-teacher"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/teaching.png"
   },
   "Bachelor of Environment & Sustainability": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability",
-    "icon": "seedling"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/environment.png"
   },
   "Bachelor of Environment & Sustainability (Advanced)": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability-advanced-honours",
-    "icon": "tree"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/environment-advanced.png"
   },
   "Bachelor of Environment & Sustainability (Advanced)(Honours)": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability-advanced-honours",
-    "icon": "tree"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/environment-advanced.png"
   },
     "Bachelor of Biotechnology": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-biotechnology",
-    "icon": "tree"
+    "icon": "https://science.anu.edu.au/files/career-wheel/icons/biotechnology.png"
   },
   "Laboratory technician": {
     "degrees": ["Bachelor of Genetics", "Bachelor of Health Science", "Bachelor of Medical Science", "Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]

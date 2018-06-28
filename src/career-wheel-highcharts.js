@@ -290,7 +290,7 @@ function showInfo(careerName){
                     icoHolder.appendChild(ico);
 
                     var box = document.createElement('div');  
-                    box.className = "box20 float width160 text-center"
+                    box.className = "float degree-box text-center"
                     box.appendChild(icoHolder);
                     box.appendChild(a);
 

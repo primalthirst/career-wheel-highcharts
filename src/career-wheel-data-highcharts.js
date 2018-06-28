@@ -94,10 +94,10 @@ var data = [{
      'name': 'Laboratory technician', 'parent': '1.2', 'value': 2,  'url': 'health'     
     },
     {
-     'name': 'Behaviour therapist', 'parent': '1.2', 'value': 2,  'url': 'health'       
+     'name': 'Mental health counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'      
     },
     {
-     'name': 'Mental health counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'      
+     'name': 'Behaviour therapist', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
      'name': 'Psychologist/ psychiatrist', 'parent': '1.2', 'value': 2,  'url': 'health'       
@@ -170,12 +170,6 @@ var data = [{
      'name': 'Conservation officer', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
-     'name': 'Eco-tourism officer', 'parent': '1.4', 'value': 2, 'url': 'earth'
-    },
-    {
-     'name': 'Sustainability consultant', 'parent': '1.4', 'value': 2, 'url': 'earth'
-    },
-    {
      'name': 'Oceanographer', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
@@ -219,9 +213,6 @@ var data = [{
     },
     {
      'name': 'Environmental scientist', 'parent': '1.4', 'value': 2, 'url': 'earth'
-    },
-    {
-     'name': 'Atmospheric Scientist', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
      'name': 'Climate change scientist', 'parent': '1.4', 'value': 2, 'url': 'earth'

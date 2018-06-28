@@ -243,12 +243,6 @@
   "Conservation officer":{
   "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
-  "Ecotourism Officer":{
-    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
-  },
-  "Sustainability consultant":{
-    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
-  },
   "Oceanographer":{
     "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
   },
@@ -284,9 +278,6 @@
   },
   "Environmental scientist":{
     "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
-  },
-  "Atmospheric Scientist":{
-    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
   },
   "Climate change scientist":{
     "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]

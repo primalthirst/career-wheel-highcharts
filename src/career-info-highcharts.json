@@ -40,23 +40,27 @@
     "icon": "pen-fancy"
   },
   "Bachelor of Mathematical Sciences": {
-    "url": "http://science.anu.edu.au/bachelor-mathematical-sciences",
+    "url": "https://science.anu.edu.au/bachelor-mathematical-sciences",
     "icon": "cube"
   },
   "Bachelor of Science/Master of Teaching": {
-    "url": "http://science.anu.edu.au/study/bachelor-degrees/bachelor-science-master-teaching",
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-science-master-teaching",
     "icon": "chalkboard-teacher"
   },
   "Bachelor of Environment & Sustainability": {
-    "url": "http://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability",
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability",
     "icon": "seedling"
   },
   "Bachelor of Environment & Sustainability (Advanced)": {
-    "url": "http://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability-advanced-honours",
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability-advanced-honours",
     "icon": "tree"
   },
   "Bachelor of Environment & Sustainability (Advanced)(Honours)": {
-    "url": "http://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability-advanced-honours",
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability-advanced-honours",
+    "icon": "tree"
+  },
+    "Bachelor of Biotechnology": {
+    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-biotechnology",
     "icon": "tree"
   },
   "Laboratory technician": {

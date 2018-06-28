@@ -286,6 +286,7 @@ function showInfo(careerName){
                     icoHolder.appendChild(ico);
 
                     var degreeTitle = document.createElement('div');
+                    degreeTitle.className = "degree-link"
                     degreeTitle.appendChild(document.createTextNode(item))
 
                     var a = document.createElement('a');

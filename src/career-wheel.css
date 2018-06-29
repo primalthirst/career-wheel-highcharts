@@ -129,6 +129,10 @@ h2{
     display: table;
 }
 
+.degree-box:hover{
+    background-color: #ffffff;
+}
+
 .degree-link{
     height: 50px;
     padding-top: 10px;

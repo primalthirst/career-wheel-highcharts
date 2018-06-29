@@ -43,10 +43,6 @@
     "url": "https://science.anu.edu.au/bachelor-mathematical-sciences",
     "icon": "https://science.anu.edu.au/files/career-wheel/icons/maths.png"
   },
-  "Bachelor of Science/Master of Teaching": {
-    "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-science-master-teaching",
-    "icon": "https://science.anu.edu.au/files/career-wheel/icons/teaching.png"
-  },
   "Bachelor of Environment & Sustainability": {
     "url": "https://science.anu.edu.au/study/bachelor-degrees/bachelor-environment-sustainability",
     "icon": "https://science.anu.edu.au/files/career-wheel/icons/environment.png"
@@ -199,10 +195,10 @@
     "degrees":["Bachelor of Genetics", "Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
   "Nanotechnologist":{
-    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Bachelor of Science/Master of Teaching","Diploma of Science"]
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Toxicologist":{
-    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Bachelor of Science/Master of Teaching","Diploma of Science"]
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)", "Diploma of Science"]
   },
   "Biomedical researcher":{
       "degrees":["Bachelor of Health Science","Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
@@ -217,7 +213,7 @@
     "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)(Honours)"]
   },
   "Botanist":{
-    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Bachelor of Science/Master of Teaching","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)(Honours)"]
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)", "Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)(Honours)"]
   },
   "Immunologist":{
     "degrees":["Bachelor of Health Science","Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]

@@ -248,7 +248,6 @@ function showInfo(careerName){
         info.classList.add('fade-in');
 
         // Update message at top of window
-        console.log("CAREER STARTS WITH: " + careerName.toLowerCase().charAt());
         var c = careerName.toLowerCase().charAt()
         if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c =='u'){
             var message = "Choose one of these degrees to start your career as an "; 
@@ -266,8 +265,6 @@ function showInfo(careerName){
             list.removeChild(list.firstChild);
         }
         
-        var arrayColours = ["bg-cmbe50", "bg-cps50", "platinum10"];
-        var c = 0;
         careerInfo[careerName].degrees.forEach(function(item) {
             
             if(careerInfo[item])
@@ -279,12 +276,9 @@ function showInfo(careerName){
                 {
                     
                     var ico = document.createElement('img');
-                    //ico.className = 'fa-4x fa fa-' + icon + ' ' + arrayColours[c];
                     ico.src = icon;
                     ico.className = "icon-image";
                     ico.alt = item;
-                    c++;
-                    if(c == arrayColours.length) c = 1;
 
                     var icoHolder = document.createElement('div');
                     icoHolder.className = "padbottom"
@@ -297,7 +291,6 @@ function showInfo(careerName){
                     var a = document.createElement('a');
                     a.appendChild(icoHolder);
                     a.appendChild(degreeTitle);
-                    //a.appendChild(document.createTextNode(item))
                     a.className = "nounderline";
                     a.title = item;
                     a.href = link;
@@ -341,7 +334,7 @@ function showInfo(careerName){
  function loadJSON(callback) {   
 
     var xobj = new XMLHttpRequest();
-        xobj.overrideMimeType("application/json");
+    xobj.overrideMimeType("application/json");
     xobj.open('GET', '/sites/science.anu.edu.au/libraries/career-wheel/career-info-highcharts.json', true); // Replace 'my_data' with the path to your file
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {

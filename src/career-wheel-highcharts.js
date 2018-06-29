@@ -42,7 +42,9 @@ function init(){
             document.getElementById('career-wheel').classList.add('fade-in');
 
             // Fade in career wheel close button
-            //parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.remove('hide');
+            if(parent.document){
+                parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.remove('hide');
+            }
         };
     }
 
@@ -280,6 +282,7 @@ function showInfo(careerName){
                     //ico.className = 'fa-4x fa fa-' + icon + ' ' + arrayColours[c];
                     ico.src = icon;
                     ico.className = "icon-image";
+                    ico.alt = item;
                     c++;
                     if(c == arrayColours.length) c = 1;
 
@@ -330,7 +333,9 @@ function showInfo(careerName){
    document.getElementById('career-wheel').classList.add('fade-out');
 
    // Hide career wheel close button
-   //parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
+   if(parent.document){
+        parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
+    }
 }
 
  function loadJSON(callback) {   

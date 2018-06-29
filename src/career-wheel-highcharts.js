@@ -298,6 +298,7 @@ function showInfo(careerName){
                     a.className = "nounderline";
                     a.title = item;
                     a.href = link;
+                    a.target = "_blank";
 
                     var box = document.createElement('div');  
                     box.className = "float degree-box text-center"                    

@@ -42,7 +42,7 @@ function init(){
             document.getElementById('career-wheel').classList.add('fade-in');
 
             // Fade in career wheel close button
-            parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.remove('hide');
+            //parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.remove('hide');
         };
     }
 
@@ -89,7 +89,7 @@ function drawWheel(){
         chart: {
             spacing: [0, 0, 0, 0],
             height: chartSize,
-            backgroundColor:'null'
+            backgroundColor:'#222222'
         },
         title: {
             text: ''
@@ -327,7 +327,7 @@ function showInfo(careerName){
    document.getElementById('career-wheel').classList.add('fade-out');
 
    // Hide career wheel close button
-   parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
+   //parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
 }
 
  function loadJSON(callback) {   

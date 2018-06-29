@@ -200,10 +200,10 @@ var data = [{
      'name': 'Science teacher', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },    
     {
-     'name': 'Parks Ranger', 'parent': '1.4', 'value': 2, 'url': 'earth'
+     'name': 'Parks ranger', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
-     'name': 'Wildlife Manager', 'parent': '1.4', 'value': 2, 'url': 'earth'
+     'name': 'Wildlife manager', 'parent': '1.4', 'value': 2, 'url': 'earth'
     },
     {
      'name': 'Ecologist', 'parent': '1.4', 'value': 2, 'url': 'earth'
@@ -290,7 +290,7 @@ var data = [{
      'name': 'Science teacher','parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
-    'name': 'Forensic Scientist', 'parent': '1.6', 'value': 2, 'url': 'chemistry'
+    'name': 'Forensic scientist', 'parent': '1.6', 'value': 2, 'url': 'chemistry'
     },
     {
      'name': 'Nanotechnologist','parent': '1.6', 'value': 2, 'url': 'chemistry"'

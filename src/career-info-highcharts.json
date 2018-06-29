@@ -195,7 +195,7 @@
   "Science reporter":{
     "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
-  "Forensic Scientist":{
+  "Forensic scientist":{
     "degrees":["Bachelor of Genetics", "Bachelor of Medical Science","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
   "Nanotechnologist":{
@@ -241,22 +241,22 @@
     "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)(Honours)"]
   },
   "Conservation officer":{
-  "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  "degrees":["Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
   "Oceanographer":{
-    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)"]
   },
   "Fire consultant":{
-    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)"]
   },
   "Forester":{
-    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)"]
   },
   "Geologist":{
     "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
-  "Urban Planner":{
-    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)"]
+  "Urban planner":{
+    "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science","Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)"]
   },
   "Geophysicist":{
     "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
@@ -267,19 +267,19 @@
   "Seismologist":{
     "degrees":["Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
-  "Parks Ranger":{
-    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  "Parks ranger":{
+    "degrees":["Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
-  "Wildlife Manager":{
-    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+  "Wildlife manager":{
+    "degrees":["Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
   "Geographer":{
-    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+    "degrees":["Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
   "Environmental scientist":{
-    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+    "degrees":["Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   },
   "Climate change scientist":{
-    "degrees":["Bachelor of Environment and Sustainability","Bachelor of Environment and Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
+    "degrees":["Bachelor of Environment & Sustainability","Bachelor of Environment & Sustainability (Advanced)","Bachelor of Philosophy (Honours)","Bachelor of Science","Bachelor of Science (Advanced)(Honours)","Diploma of Science"]
   }
 }

@@ -1,6 +1,7 @@
 
 /* Career wheel styles */
 body {
+    min-width:320px;
     background-color: #222222; 
 }
 

@@ -246,13 +246,15 @@ function showInfo(careerName){
         info.classList.add('fade-in');
 
         // Update message at top of window
-        if(careerName.toLowerCase().charAt() == ('a' || 'e' || 'i' || 'o' || 'u')){
+        console.log("CAREER STARTS WITH: " + careerName.toLowerCase().charAt());
+        var c = careerName.toLowerCase().charAt()
+        if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c =='u'){
             var message = "Choose one of these degrees to start your career as an "; 
         }
         else{
             var message = "Choose one of these degrees to start your career as a "; 
         }
-        document.getElementById("subheading").innerHTML = message + careerName + ".";
+        document.getElementById("subheading").innerHTML = message + careerName.toLowerCase() + ".";
 
 
         // Show degrees - Clear current list from info window than add list of relevant degrees linking to college site

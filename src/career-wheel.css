@@ -78,6 +78,15 @@ a:visited {
 
 /* Career info overlay styles */
 
+.info-window-button{
+    text-shadow: 0 1px 2px #55707D;
+    color: #55707D;
+    font-size: 35px;
+    font-family: Helvetica, Arial, Baskerville, monospace;
+    float: right;
+    cursor: pointer;
+}
+
 .fade-in {
     visibility: visible;
     opacity: 1;

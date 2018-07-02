@@ -43,7 +43,10 @@ function init(){
 
             // Fade in career wheel close button
             if(parent.document){
-                parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.remove('hide');
+                if(parent.document.getElementsByClassName('featherlight-close-icon')[0])
+                {
+                    parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.remove('hide');
+                }
             }
         };
     }
@@ -333,7 +336,10 @@ function showInfo(careerName){
 
    // Hide career wheel close button
    if(parent.document){
-        parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
+        if(parent.document.getElementsByClassName('featherlight-close-icon')[0])
+        {
+            parent.document.getElementsByClassName('featherlight-close-icon')[0].classList.add('hide');
+        }
     }
 }
 

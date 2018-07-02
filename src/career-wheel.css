@@ -91,12 +91,14 @@ a:visited {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.3s ease-out;
+    pointer-events: auto;
 }
 
 .fade-out {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0.3s 1s, opacity 1s ease-out;
+    pointer-events: none;
 }
 
 .hide

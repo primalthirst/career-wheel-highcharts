@@ -2,4 +2,6 @@
 
 <div id="wheel-intro-text">
 	<p>The wheel is also available as a <a href="/files/SCI171462_Careers_Flyer_v3_WEB_0.pdf">pdf document (1.5 MB)</a>.</p>
+
+	<p>A <a href="http://science.anu.edu.au/study/careers-science/career-wheel-accessible">text only version of the career wheel</a> is also available.</p>
 </div>

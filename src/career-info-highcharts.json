@@ -74,7 +74,10 @@
   "Mental health counsellor": {
     "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"]
   },
-  "Psychologist/ psychiatrist": {
+  "Psychologist": {
+    "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"]
+  },
+  "Psychiatrist": {
     "degrees": ["Bachelor of Philosophy (Honours)", "Bachelor of Science", "Bachelor of Science (Advanced)(Honours)", "Diploma of Science", "Bachelor of Science (Psychology)", "Bachelor of Psychology (Honours)"]
   },
   "Rehabilitation counsellor": {

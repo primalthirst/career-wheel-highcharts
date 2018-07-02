@@ -100,7 +100,10 @@ var data = [{
      'name': 'Behaviour therapist', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
-     'name': 'Psychologist/ psychiatrist', 'parent': '1.2', 'value': 2,  'url': 'health'       
+     'name': 'Psychologist', 'parent': '1.2', 'value': 2,  'url': 'health'       
+    },
+    {
+     'name': 'Psychiatrist', 'parent': '1.2', 'value': 2,  'url': 'health'       
     },
     {
      'name': 'Rehabilitation counsellor', 'parent': '1.2', 'value': 2,  'url': 'health'     

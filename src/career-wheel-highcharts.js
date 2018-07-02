@@ -87,7 +87,12 @@ function drawWheel(){
     zoom = 1;
     chart = Highcharts.chart('container', {
         colors: ['#79c267', ' #c5d647', ' #f5d63d', ' #f28c33', ' #e868a2', ' #bf62a6', ' #0392cf'],
-        credits: false,
+        credits:false,
+        accessibility: {
+            keyboardNavigation: {
+                tabThroughPoints: false
+            }
+        },
         chart: {
             spacing: [0, 0, 0, 0],
             height: chartSize,
@@ -131,6 +136,7 @@ function drawWheel(){
             type: "sunburst",
             borderColor: '#222222',
             lineWidth: 2,
+            skipKeyboardNavigation: true,
             borderWidth: wheelBorderWidth,
             states: {
                 hover: {
